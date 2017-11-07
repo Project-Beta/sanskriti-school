@@ -1,0 +1,146 @@
+flexbox()
+	display -webkit-box
+	display -webkit-flex
+	display -moz-box
+	display -moz-flex
+	display -ms-flexbox
+	display flex
+
+inline-flex()
+	display -webkit-inline-box
+	display -webkit-inline-flex
+	display -moz-inline-box
+	display -moz-inline-flex
+	display -ms-inline-flexbox
+	display inline-flex
+
+flex-direction($value = row)
+	if $value is row-reverse
+		-webkit-box-direction reverse
+		-webkit-box-orient horizontal
+	else if $value is column
+		-webkit-box-direction normal
+		-webkit-box-orient vertical
+	else if $value is column-reverse
+		-webkit-box-direction reverse
+		-webkit-box-orient vertical
+	else 
+		-webkit-box-direction normal
+		-webkit-box-orient horizontal
+		
+	-webkit-flex-direction $value
+	-moz-flex-direction $value
+	-ms-flex-direction $value
+	flex-direction $value
+
+flex-wrap($value = nowrap)
+	-webkit-flex-wrap $value
+	-moz-flex-wrap $value
+	if $value is nowrap
+		-ms-flex-wrap none
+	else 
+		-ms-flex-wrap $value;
+
+	flex-wrap $value
+
+flex-flow($values = row nowrap)
+	-webkit-flex-flow $values
+	-moz-flex-flow $values
+	-ms-flex-flow $values
+	flex-flow $values
+
+order($int = 0)
+	-webkit-box-ordinal-group $int + 1
+	-webkit-order $int
+	-moz-order $int
+	-ms-flex-order $int
+	order $int
+
+flex-grow($int = 0)
+	-webkit-box-flex $int
+	-webkit-flex-grow $int
+	-moz-flex-grow $int
+	-ms-flex-positive $int
+	flex-grow $int
+
+flex-shrink($int = 1)
+	-webkit-flex-shrink $int
+	-moz-flex-shrink $int
+	-ms-flex-negative $int
+	flex-shrink $int
+
+flex-basis($value = auto)
+	-webkit-flex-basis $value
+	-moz-flex-basis $value
+	-ms-flex-preferred-size $value
+	flex-basis $value
+
+flex($fg = 1, $fs = null, $fb = null)
+	$fg-boxflex=$fg
+	$fg-boxflex=$fg[0] if length($fg) > 1
+
+	-webkit-box-flex $fg-boxflex
+	-webkit-flex $fg $fs $fb
+	-moz-box-flex $fg-boxflex
+	-moz-flex $fg $fs $fb
+	-ms-flex $fg $fs $fb
+	flex $fg $fs $fb
+
+justify-content($value = flex-start)
+	if $value is flex-start
+		-webkit-box-pack start
+		-ms-flex-pack start
+	else if $value is flex-end
+		-webkit-box-pack end
+		-ms-flex-pack end
+	else if $value is space-between
+		-webkit-box-pack justify
+		-ms-flex-pack justify
+	else
+		-webkit-box-pack $value
+		-ms-flex-pack $value
+
+	-webkit-justify-content $value
+	-moz-justify-content $value
+	justify-content $value
+
+align-items($value = stretch)
+	if $value is flex-start
+		-webkit-box-align start
+		-ms-flex-align start
+	else if $value is flex-end
+		-webkit-box-align end
+		-ms-flex-align end
+	else
+		-webkit-box-align $value
+		-ms-flex-align $value
+
+	-webkit-align-items $value
+	-moz-align-items $value
+	align-items $value
+
+align-self($value = auto)
+	-webkit-align-self $value
+	-moz-align-self $value
+
+	if $value is flex-start
+		-ms-flex-item-align start
+	else if $value is flex-end
+		-ms-flex-item-align end
+	else
+		-ms-flex-item-align $value
+
+	align-self $value
+
+align-content($value = stretch)
+	-webkit-align-content $value
+	-moz-align-content $value
+  
+	if $value is flex-start
+		-ms-flex-line-pack start
+	else if $value is flex-end
+		-ms-flex-line-pack end
+	else
+		-ms-flex-line-pack $value
+
+	align-content $value
