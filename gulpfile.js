@@ -6,10 +6,10 @@
 // const uglify = require("gulp-uglify");
 // const xtag = require("x-tag");
 const babel = require("gulp-babel");
+const autoprefix = require("gulp-autoprefixer");
 const gulp = require("gulp");
 const pug = require("gulp-pug");
 const stylus = require("gulp-stylus");
-const nib = require("nib");
 
 gulp.task('pug', function() {
 	return gulp.src('src/pug/*.pug')
@@ -20,8 +20,10 @@ gulp.task('pug', function() {
 gulp.task('stylus', function() {
 	return gulp.src('src/styl/*.styl')
 	.pipe(stylus({
-		use: [nib()],
 		compress: true
+	}))
+	.pipe(autoprefix({
+		cascade: false
 	}))
 	.pipe(gulp.dest('dist/css'));
 })
