@@ -10,6 +10,7 @@ const autoprefix = require("gulp-autoprefixer");
 const gulp = require("gulp");
 const pug = require("gulp-pug");
 const stylus = require("gulp-stylus");
+const surge = require("gulp-surge");
 
 gulp.task('pug', function() {
 	return gulp.src('src/pug/*.pug')
@@ -35,6 +36,17 @@ gulp.task('scripts', function() {
 		minified: true
 	}))
 	.pipe(gulp.dest('dist/js'))
+})
+
+gulp.task('deploy', function() {
+	return surge({
+		project: 'dist',
+		domain: 'sanskriti.surge.sh'
+	})
+})
+
+gulp.task('deployWatch', ['pug', 'stylus', 'scripts', 'deploy'], function() {
+	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/**/*.js'], ['pug', 'stylus', 'scripts', 'deploy']);
 })
 
 gulp.task('default', ['pug', 'stylus', 'scripts'], function () {
