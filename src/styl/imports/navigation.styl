@@ -2,12 +2,14 @@
 
 section.navigation
 	width 100%
+	min-height 110px
 	height 15%
 	flex-direction column
+	justify-content space-between
 	background sanskriti-blue
 	div.header
 		width 100%
-		height 60%
+		height 100%
 		img
 			display none
 			height 80%
@@ -17,20 +19,58 @@ section.navigation
 			font-family "Old English"
 			color sanskriti-orange
 			letter-spacing 4px
-	div.linkContainer
+			@media screen and (max-width:500px)
+				font-size 210%
+				letter-spacing 2px
+	div.links
+		.nodisplay
+			display none
 		width 100%
-		height 6vh
-		justify-content space-between
+		height 100%
+		margin 0 auto
 		background sanskriti-blue
-		color #ccc
-		div.link
-			font-size 130%
-			width 100%
-			height 100%
-			transition 0.3s all
-			a
-				font-variant all-small-caps
-		div.link:hover
-			cursor pointer
-			color #fff
-			background #292331
+		box-shadow 0px 5px 10px -5px #000
+		flex-direction column
+		div.container
+			overflow-x auto
+			overflow-y hidden
+			-webkit-overflow-scrolling touch
+			-ms-overflow-style -ms-autohiding-scrollbar
+			max-width 1200px
+			flex-direction row
+			div.link
+				flex 0 0 auto
+				height 100%
+				transition 0.3s all
+				padding 0 20px
+				margin 0 auto
+				flex-direction column
+				@media screen and (max-width:500px)
+					padding 0 13px
+				a
+					color #9a9a9a
+					text-decoration none
+					font-size 130%
+					height 100%
+					width 100%
+					font-variant all-small-caps
+					transition 0.3s all
+					@media screen and (max-width:500px)
+						font-size 110%
+				a:hover
+					color #fff
+			div.link:hover
+				cursor pointer
+				color #fff
+		div.container::-webkit-scrollbar
+			height 0
+		div.container:hover::-webkit-scrollbar
+			height 10px
+			@media screen and (max-width:500px)
+				height 0
+		div.container:hover::-webkit-scrollbar-thumb
+			background rgba(84, 84, 84, 0.8)
+		div.level1
+			background sanskriti-blue
+		div.level2
+			background #000029
