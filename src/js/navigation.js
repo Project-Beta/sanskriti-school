@@ -1,10 +1,23 @@
 var navbar = document.querySelector('section.navigation');
 var header = document.querySelector('div.header');
 var links = document.querySelector('div.links');
+
+var linkList = [document.querySelector('div.link.about-us'),
+				document.querySelector('div.link.curriculum'),
+				document.querySelector('div.link.admissions'),
+				document.querySelector('div.link.infrastructure')];
+var barList = [document.querySelector('div.level2.about-us'),
+				document.querySelector('div.level2.curriculum'),
+				document.querySelector('div.level2.admissions'),
+				document.querySelector('div.level2.infrastructure'),
+				document.querySelector('div.level1')];
+
 var headerHeight = header.clientHeight;
 var minHeightTrue = (headerHeight === 55 ? true : false);
+
 var dropped = false;
 var scrolled = false;
+
 window.addEventListener('scroll', function() {
 	var scrollHeight = window.scrollY;
 	if (scrollHeight >= headerHeight) {
@@ -15,19 +28,9 @@ window.addEventListener('scroll', function() {
 	} else if (scrolled) {
 		links.style.position = 'static';
 		links.style.height = dropped ? (minHeightTrue ? '110px' : '12.5vh') : (minHeightTrue ? '55px' : '7.5vh');
+		header.style.height = minHeightTrue ? '55px' : '50%';
 	}
 })
-
-var aboutUsLink = document.querySelector('div.link.about-us');
-var curriculumLink = document.querySelector('div.link.curriculum');
-var admissionsLink = document.querySelector('div.link.admissions');
-var infrastructureLink = document.querySelector('div.link.infrastructure');
-
-var aboutUsBar = document.querySelector('div.level2.about-us');
-var curriculumBar = document.querySelector('div.level2.curriculum');
-var admissionsBar = document.querySelector('div.level2.admissions');
-var infrastructureBar = document.querySelector('div.level2.infrastructure');
-
 
 function show(bar, link) {
 	dropped = true;
@@ -54,43 +57,35 @@ function hide(bar, link) {
 	bar.classList.remove('flex');
 }
 
-aboutUsLink.addEventListener('click', function() {
-	hide(curriculumBar, curriculumLink);
-	hide(admissionsBar, admissionsLink);
-	hide(infrastructureBar, infrastructureLink);
-	if (aboutUsBar.classList.contains('nodisplay')) {
-		show(aboutUsBar, aboutUsLink);
-	} else {
-		hide(aboutUsBar, aboutUsLink);
-	}
-})
-curriculumLink.addEventListener('click', function() {
-	hide(aboutUsBar, aboutUsLink);
-	hide(admissionsBar, admissionsLink);
-	hide(infrastructureBar, infrastructureLink);
-	if (curriculumBar.classList.contains('nodisplay')) {
-		show(curriculumBar, curriculumLink);
-	} else {
-		hide(curriculumBar, curriculumLink);
-	}
-})
-admissionsLink.addEventListener('click', function() {
-	hide(aboutUsBar, aboutUsLink);
-	hide(curriculumBar, curriculumLink);
-	hide(infrastructureBar, infrastructureLink);
-	if (admissionsBar.classList.contains('nodisplay')) {
-		show(admissionsBar, admissionsLink);
-	} else {
-		hide(admissionsBar, admissionsLink);
-	}
-})
-infrastructureLink.addEventListener('click', function() {
-	hide(aboutUsBar, aboutUsLink);
-	hide(curriculumBar, curriculumLink);
-	hide(admissionsBar, admissionsLink);
-	if (infrastructureBar.classList.contains('nodisplay')) {
-		show(infrastructureBar, infrastructureLink);
-	} else {
-		hide(infrastructureBar, infrastructureLink);
-	}
-})
+for (let i = 0; i < linkList.length; i++) {
+	(function(i) {
+		linkList[i].addEventListener('click', function() {
+			for (let j = 0; j < linkList.length; j++) {
+				if (j === i) continue;
+				hide(barList[j], linkList[j]);
+			}
+			if (barList[i].classList.contains('nodisplay')) {
+				show(barList[i], linkList[i]);
+			} else {
+				hide(barList[i], linkList[i]);
+			}
+		})
+	}(i))
+}
+
+for (let i = 0; i < barList.length; i++) {
+	(function(i) {
+		function scrollHorizontally(e) {
+			e = window.event || e;
+			var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+			barList[i].scrollLeft -= (delta*20);
+			e.preventDefault();
+		}
+		if (barList[i].addEventListener) {
+			barList[i].addEventListener("mousewheel", scrollHorizontally, false);
+			barList[i].addEventListener("DOMMouseScroll", scrollHorizontally, false);
+		} else {
+			barList[i].attachEvent("onmousewheel", scrollHorizontally);
+		}
+	})(i);
+}

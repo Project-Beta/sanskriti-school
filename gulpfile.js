@@ -14,7 +14,9 @@ const surge = require("gulp-surge");
 
 gulp.task('pug', function() {
 	return gulp.src('src/pug/*.pug')
-	.pipe(pug())
+	.pipe(pug({
+		basedir: "./"
+	}))
 	.pipe(gulp.dest('dist/html'));
 })
 
@@ -40,7 +42,7 @@ gulp.task('scripts', function() {
 
 gulp.task('deploy', function() {
 	return surge({
-		project: 'dist',
+		project: './',
 		domain: 'sanskriti.surge.sh'
 	})
 })

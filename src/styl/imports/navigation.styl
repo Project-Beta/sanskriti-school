@@ -12,7 +12,7 @@ section.navigation
 		height 100%
 		img
 			display none
-			height 80%
+			height 100%
 			width auto
 		h1
 			font-size 300%
@@ -39,6 +39,7 @@ section.navigation
 			max-width 1200px
 			flex-direction row
 			div.link
+				color #9a9a9a
 				flex 0 0 auto
 				height 100%
 				transition 0.3s all
@@ -48,28 +49,25 @@ section.navigation
 				@media screen and (max-width:500px)
 					padding 0 13px
 				a
-					color #9a9a9a
+					color inherit
 					text-decoration none
 					font-size 130%
 					height 100%
 					width 100%
 					font-variant all-small-caps
-					transition 0.3s all
 					@media screen and (max-width:500px)
 						font-size 110%
-				a:hover
-					color #fff
 			div.link:hover
 				cursor pointer
 				color #fff
 		div.container::-webkit-scrollbar
 			height 0
 		div.container:hover::-webkit-scrollbar
-			height 10px
+			height 7px
 			@media screen and (max-width:500px)
 				height 0
 		div.container:hover::-webkit-scrollbar-thumb
-			background rgba(84, 84, 84, 0.8)
+			background rgba(84, 84, 84, 0.7)
 		div.level1
 			background sanskriti-blue
 		div.level2
