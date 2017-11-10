@@ -13,10 +13,8 @@ const stylus = require("gulp-stylus");
 const surge = require("gulp-surge");
 
 gulp.task('pug', function() {
-	return gulp.src('src/pug/*.pug')
-	.pipe(pug({
-		basedir: "./"
-	}))
+	return gulp.src(['src/pug/**/*.pug', '!src/pug/includes/*'])
+	.pipe(pug())
 	.pipe(gulp.dest('dist/html'));
 })
 

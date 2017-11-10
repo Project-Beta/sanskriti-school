@@ -78,7 +78,7 @@ for (let i = 0; i < barList.length; i++) {
 		function scrollHorizontally(e) {
 			e = window.event || e;
 			var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
-			barList[i].scrollLeft -= (delta*20);
+			barList[i].scrollLeft -= (delta*40);
 			e.preventDefault();
 		}
 		if (barList[i].addEventListener) {
