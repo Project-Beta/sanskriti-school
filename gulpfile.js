@@ -1,10 +1,3 @@
-// const cssbeautify = require("gulp-cssbeautify");
-// const csslint = require("gulp-csslint");
-// const htmllint = require("gulp-html");
-// const jsbeautify = require("gulp-esformatter");
-// const jslint = require("jslint");
-// const uglify = require("gulp-uglify");
-// const xtag = require("x-tag");
 const babel = require("gulp-babel");
 const autoprefix = require("gulp-autoprefixer");
 const gulp = require("gulp");
@@ -15,7 +8,7 @@ const surge = require("gulp-surge");
 gulp.task('pug', function() {
 	return gulp.src(['src/pug/**/*.pug', '!src/pug/includes/*'])
 	.pipe(pug())
-	.pipe(gulp.dest('dist/html'));
+	.pipe(gulp.dest('dist/'));
 })
 
 gulp.task('stylus', function() {
@@ -26,7 +19,7 @@ gulp.task('stylus', function() {
 	.pipe(autoprefix({
 		cascade: false
 	}))
-	.pipe(gulp.dest('dist/css'));
+	.pipe(gulp.dest('dist/assets/css'));
 })
 
 gulp.task('scripts', function() {
@@ -35,7 +28,7 @@ gulp.task('scripts', function() {
 		presets: ['env'],
 		minified: true
 	}))
-	.pipe(gulp.dest('dist/js'))
+	.pipe(gulp.dest('dist/assets/js'))
 })
 
 gulp.task('deploy', function() {
