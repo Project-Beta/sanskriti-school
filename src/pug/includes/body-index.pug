@@ -1,6 +1,55 @@
-div.container
+.container
+
 	section.navigation.flex
+
 		include ./navigation.pug
+
 	section.main
+
+		section.top.flex
+
+			.carousel.flex
+
+				.carousel-box.flex
+
+					img(src="http://via.placeholder.com/700x350")
+
+			.news.flex
+
+				.news-box.flex
+
+					.news-top.flex
+
+						a(href="#") News
+
+					.news-list.flex
+
+						li.news-item
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+						li.news-item
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+						li.news-item
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+						a(href="#") View more &rarr;
+
+					.news-calendar.flex
+
+						a(href="#") School Calendar, 2018-19
+
+
+		section.middle.flex
+
+			.welcome
+
+			.achievements
+
+		section.bottom
+
+			.principle
+
 	section.footer
+
 		include ./footer.pug
