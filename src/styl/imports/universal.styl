@@ -1,31 +1,35 @@
 *
 	padding 0
 	margin 0
+	position relative
 	box-sizing border-box
+	text-rendering optimizeLegibility
+
+
 *.flex
 	display flex
 	align-items center
 	justify-content center
+
 *.noselect
 	user-select none
 
-html, body
-	height 100%
-	width 100%
-	background #eee
-	font-family "Oxygen"
+*.nodisplay
+	display none
 
-div.container
+
+*.container
 	width 100%
 	height 100%
 	justify-content flex-start
 	flex-direction column
 
-@import 'imports/navigation'
+a
+	
+	&:link, &:visited, &:hover, &:visited:hover, &:focus
+		text-decoration none
 
 section.main
 	height 100%
-
-section.footer
-	height 100%
 	width 100%
+	z-index -1

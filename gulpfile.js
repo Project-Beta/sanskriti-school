@@ -12,7 +12,7 @@ gulp.task('pug', function() {
 })
 
 gulp.task('stylus', function() {
-	return gulp.src('src/styl/*.styl')
+	return gulp.src('src/styl/pages/*.styl')
 	.pipe(stylus({
 		compress: true
 	}))
@@ -33,7 +33,7 @@ gulp.task('scripts', function() {
 
 gulp.task('deploy', function() {
 	return surge({
-		project: './',
+		project: './dist',
 		domain: 'sanskriti.surge.sh'
 	})
 })
