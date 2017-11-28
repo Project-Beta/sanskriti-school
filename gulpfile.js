@@ -23,10 +23,6 @@ gulp.task('stylus', function() {
 
 gulp.task('scripts', function() {
 	return gulp.src('src/js/*.js')
-	.pipe(babel({
-		presets: ['env'],
-		minified: true
-	}))
 	.pipe(gulp.dest('dist/assets/js'))
 })
 
