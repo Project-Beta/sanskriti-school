@@ -5,21 +5,43 @@ section.top
 	width 100%
 	
 	div.carousel
-		width 60%
+		width 50%
 		height 100%
 		
 		div.carousel-box
 			height 100%
+			width 100%
 			
 			img
-				height 80%
-				width auto
+				width 80%
+				height auto
 				box-shadow 0 0 2px black
 	
+	div.welcome
+		width 50%
+		height 100%
+		
+		div.container
+			width 80%
+			height 80%
+			
+			h1
+				font-family "Alegreya Sans"
+				font-size 400%
+				color sanskriti-orange
+				font-weight 100
+			
+			p
+				font-family "Alegreya Sans"
+				font-size 150%
+				line-height 1.3
+				font-weight 100
+				padding 2% 0
+	
 section.middle
-	height 80%
+	height 60%
 	width 100%
-	background #23236d
+	background #323248
 	justify-content space-around
 	
 	div.updates
@@ -27,44 +49,53 @@ section.middle
 		height 100%
 		
 		div.updates-box
-			width 80%
+			width 60%
 			height 80%
 			flex-direction column
+			align-items center
+			border 3px solid #aaa
 			
 			div.updates-top
 				width 100%
 				height 15%
-				border-bottom 3px solid #aaa
-				
+							
 				a
 					font-family "Libre Baskerville"
 					font-size 150%
 					font-weight bold
-					color sanskriti-orange
+					padding 0 0 3% 0
+					border-bottom 2px solid
 				
 			div.updates-list
 				width 85%
-				height 85%
 				flex-direction column
 				justify-content space-around
 
 				li.updates-item
-					border-bottom 1px solid #aaa
 					color #eee
 					font-family "Oxygen"
 					font-size 19px
 					font-weight 100
 					list-style-position inside
 					list-style-type none
-					padding 5% 0
+					padding 7% 0
 					text-align center
 
 					&:nth-child(3)
 						border none
 
+			div.updates-view-more
+				width 100%
+				height 15%
+				
 				a
 					font-size 17px
-					color sanskriti-orange
+					font-weight bold
+					transition 0.1s padding ease
+					
+					&:hover
+						padding 0 0 5px 0
+						border-bottom 2px solid
 					
 					
 			div.updates-calendar
@@ -76,3 +107,35 @@ section.middle
 					font-size 20px
 					color sanskriti-orange
 					font-weight bold
+			
+		&.news
+			
+			div.updates-box
+				
+				&, div.updates-top
+					
+					a
+						color #ff9d53
+
+		&.achievements
+			
+			div.updates-box
+				
+				&, div.updates-top
+					
+					a
+						color #3bb5b9
+
+		&.sports
+			
+			div.updates-box
+				
+				&, div.updates-top
+					
+					a
+						color #55b355
+
+section.footer
+	height 0
+
+				
