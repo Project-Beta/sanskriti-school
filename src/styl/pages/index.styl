@@ -1,6 +1,7 @@
 @require "../imports/main"
 
 section.top
+	background #eee
 	width 100%
 	border-bottom 3px solid sanskriti-blue
 	padding 60px 0
@@ -148,6 +149,62 @@ section.middle
 					
 					a
 						color #55b355
+
+section.bottom
+	width 100%
+	background #eee
+	padding 20px
+
+	div.image
+		width 35%
+		height 100%
+		
+		img
+			width 60%
+			height auto
+			border 2px solid sanskriti-blue
+	
+	div.message
+		width 65%
+		height 100%
+		padding 30px 0
+		
+		div.container
+			height 80%
+			width 80%
+
+			h1
+				font-family "Alegreya Sans"
+				font-size 350%
+				color sanskriti-orange
+				font-weight 100
+				margin 3% 0
+
+			p
+				font-family "Alegreya Sans"
+				font-size 150%
+				line-height 1.3
+				font-weight 100
+				padding 2% 0
+				
+				&.quote
+					color sanskriti-blue
+
+					&:nth-child(2)
+						font-style italic
+					
+					&:nth-child(3)
+						text-align right
+				
+			a
+				color sanskriti-orange
+				transition 0.1s all ease
+				
+				&:hover
+					padding 3px 0
+					border-bottom 1px solid
+				
+			
 
 section.footer
 	height 0
