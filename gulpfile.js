@@ -1,4 +1,3 @@
-const babel = require("gulp-babel");
 const autoprefix = require("gulp-autoprefixer");
 const gulp = require("gulp");
 const pug = require("gulp-pug");
@@ -29,6 +28,10 @@ gulp.task('scripts', function() {
 		minified: true
 	}))
 	.pipe(gulp.dest('dist/assets/js'))
+})
+
+gulp.task('pug+styl', ['pug', 'stylus'], function() {
+	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl'], ['pug', 'stylus']);
 })
 
 gulp.task('deploy', function() {
