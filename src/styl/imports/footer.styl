@@ -7,37 +7,55 @@ section.footer
 	
 	div.footer-content
 		width 100%
-		height 100%
+		height 90%
+		border-bottom 1px solid rgba(255, 255, 255, 0.07)
 		
 		div.map
-			width 30%
+			width 40%
 			height 100%
 		
-		div.data
-			width 70%
-			height 100%
+		div.info
+			width 60%
+			height 70%
 			
 			> div
-				padding 10px 5px
-			
-			div.address
 				width 100%
 				height 100%
-			
-			div.phones
-				width 100%
-				height 100%
+				align-items flex-start
 				
-				a
-					padding 10px 0
-					color #eee
-					width 100%
+				div.data
+					width 85%
+					
+					h1
+						padding 10px 0
+						font-size 110%
+						color #ff9d53
+						border-bottom 1px solid
+						margin 0 0 20px 0
+					
+					p, a
+						color #bbb
+						
+					a
+						padding 0 0 5px 0
+						display block
+						transition 0.2s all linear
+						
+						&:hover
+							color #fff
+	
+	div.credits
+		height 10%
+		
+		p
+			text-align center
+			font-size 15px
+			color #aaa
 			
-			div.emails
-				width 100%
-				height 100%
-				
-				a
-					padding 10px 0
-					color #eee
-					width 100%
+			a
+				color inherit
+				transition 0.2s all linear
+
+			a:hover
+				color #fff
+						
