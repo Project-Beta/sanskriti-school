@@ -1,14 +1,14 @@
 section.footer
-	height 50%
 	width 100%
 	background #323248
 	color #eee
 	font-family "Oxygen"
 	
 	div.footer-content
+		padding 50px 0
 		width 100%
-		height 90%
 		border-bottom 1px solid rgba(255, 255, 255, 0.07)
+		align-items flex-start
 		
 		div.map
 			width 40%
@@ -16,25 +16,25 @@ section.footer
 		
 		div.info
 			width 60%
-			height 70%
+			align-items flex-start
 			
 			> div
-				width 100%
 				height 100%
-				align-items flex-start
 				
 				div.data
-					width 85%
+					width 100%
 					
 					h1
-						padding 10px 0
+						padding 0 0 10px 0
 						font-size 110%
 						color #ff9d53
 						border-bottom 1px solid
 						margin 0 0 20px 0
+						width 70%
 					
 					p, a
 						color #bbb
+						letter-spacing 1px
 						
 					a
 						padding 0 0 5px 0
@@ -43,14 +43,26 @@ section.footer
 						
 						&:hover
 							color #fff
+							
+				&.address
+					width 90%
+							
+				&.phone
+					width 70%
+							
+				&.email
+					width 100%
 	
 	div.credits
-		height 10%
+		padding 7px 0
 		
 		p
 			text-align center
-			font-size 15px
-			color #aaa
+			font-size 14px
+			color #777
+			
+			span
+				color #bbb
 			
 			a
 				color inherit
