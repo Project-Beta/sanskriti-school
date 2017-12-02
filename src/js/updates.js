@@ -19,9 +19,9 @@ xmlhttp.send();
 
 
 var updateBox = [
-	document.querySelector('section.middle div.news div.updates-list'),
-	document.querySelector('section.middle div.achievements div.updates-list'),
-	document.querySelector('section.middle div.sports div.updates-list')
+	document.querySelector('div.news .updates-list'),
+	document.querySelector('div.achievements .updates-list'),
+	document.querySelector('div.sports .updates-list')
 ]
 
 function insertItems () {

@@ -1,11 +1,14 @@
 const autoprefix = require("gulp-autoprefixer");
+const babel = require("gulp-babel");
+const concat = require("gulp-concat");
 const gulp = require("gulp");
 const pug = require("gulp-pug");
 const stylus = require("gulp-stylus");
 const surge = require("gulp-surge");
+const uglify = require("gulp-uglify");
 
 gulp.task('pug', function() {
-	return gulp.src('src/pug/pages/**/*.pug')
+	return gulp.src('src/pug/pages/*.pug')
 	.pipe(pug())
 	.pipe(gulp.dest('dist/'));
 })
@@ -23,6 +26,11 @@ gulp.task('stylus', function() {
 
 gulp.task('scripts', function() {
 	return gulp.src('src/js/*.js')
+	.pipe(concat('scripts.js'))
+	.pipe(babel({
+		presets: ['env']
+	}))
+	.pipe(uglify())
 	.pipe(gulp.dest('dist/assets/js'))
 })
 
@@ -38,9 +46,9 @@ gulp.task('deploy', function() {
 })
 
 gulp.task('deployWatch', ['pug', 'stylus', 'scripts', 'deploy'], function() {
-	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/**/*.js'], ['pug', 'stylus', 'scripts', 'deploy']);
+	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts', 'deploy']);
 })
 
 gulp.task('default', ['pug', 'stylus', 'scripts'], function () {
-	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/**/*.js'], ['pug', 'stylus', 'scripts']);
+	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts']);
 })
