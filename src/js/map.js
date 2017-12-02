@@ -1,3 +1,4 @@
+//Google Maps API
 function init_map() {
 	var myOptions = {
 		zoom: 17,
