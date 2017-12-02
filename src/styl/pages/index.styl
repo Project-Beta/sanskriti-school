@@ -95,6 +95,15 @@ section.middle
 					list-style-position inside
 					list-style-type square
 					padding 0 0 25px 0
+					
+					a
+						color inherit
+						text-decoration underline
+						text-underline-position under
+					
+					&.important
+						color #ff7878
+						font-weight bold
 
 					&:nth-child(3)
 						border none
@@ -127,9 +136,9 @@ section.middle
 			
 			div.updates-box
 				
-				&, div.updates-top
+				div.updates-top, div.updates-view-more
 					
-					a
+					> a
 						color #ff9d53
 
 		&.achievements
@@ -137,18 +146,18 @@ section.middle
 			
 			div.updates-box
 				
-				&, div.updates-top
+				div.updates-top, div.updates-view-more
 					
-					a
+					> a
 						color #3bb5b9
 
 		&.sports
 			
 			div.updates-box
 				
-				&, div.updates-top
+				div.updates-top, div.updates-view-more
 					
-					a
+					> a
 						color #55b355
 
 section.bottom

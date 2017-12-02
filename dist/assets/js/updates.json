@@ -3,17 +3,23 @@
 		"items": [
 			{
 				"message": "Dear Parents, please note that there will be No morning and afternoon activities till air quality index improves",
-				"date": "29/11/17"
+				"date": "29/11/17",
+				"type": "text",
+				"important": "no"
 			},
 
 			{
 				"message": "Winter timings(7.45 am-2.00 pm) would be applicable from Friday, December 1, 2017.",
-				"date": "28/11/17"
+				"date": "28/11/17",
+				"type": "text",
+				"important": "no"
 			},
 			
 			{
 				"message": "Middle School Trips: Parents are requested to check the updates in their logins.",
-				"date": "27/11/17"
+				"date": "27/11/17",
+				"type": "text",
+				"important": "no"
 			}
 		]
 	},
@@ -22,17 +28,26 @@
 		"items": [
 			{
 				"message": "Bizzonomy club participation in children's day event for underprivileged",
-				"date": "27/11/17"
+				"date": "27/11/17",
+				"type": "link",
+				"href": "/news/bizzonomy-club",
+				"important": "no"
 			},
 
 			{
 				"message": "First prize in India's biggest quiz competition- Inquizitive minds",
-				"date": "26/11/17"
+				"date": "26/11/17",
+				"type": "link",
+				"href": "/news/inquizitive-minds-first-prize",
+				"important": "yes"
 			},
 
 			{
 				"message": "Interschool Quiz Competition",
-				"date": "25/11/17"
+				"date": "25/11/17",
+				"type": "link",
+				"href": "/news/interschool-quiz-competitions",
+				"important": "no"
 			}
 		]
 	},
@@ -41,17 +56,23 @@
 		"items": [
 			{
 				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"date": "27/01/17"
+				"date": "27/01/17",
+				"type": "text",
+				"importance": "normal"
 			},
 
 			{
 				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"date": "26/11/17"
+				"date": "26/11/17",
+				"type": "text",
+				"importance": "normal"
 			},
 
 			{
 				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"date": "25/11/17"
+				"date": "25/11/17",
+				"type": "text",
+				"importance": "normal"
 			}
 		]
 	}
