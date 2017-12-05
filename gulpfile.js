@@ -2,14 +2,16 @@ const autoprefix = require("gulp-autoprefixer");
 const babel = require("gulp-babel");
 const concat = require("gulp-concat");
 const gulp = require("gulp");
+const prettify = require("gulp-prettify");
 const pug = require("gulp-pug");
 const stylus = require("gulp-stylus");
 const surge = require("gulp-surge");
 const uglify = require("gulp-uglify");
 
 gulp.task('pug', function() {
-	return gulp.src('src/pug/pages/*.pug')
+	return gulp.src('src/pug/pages/**/*.pug')
 	.pipe(pug())
+	.pipe(prettify())
 	.pipe(gulp.dest('dist/'));
 })
 
