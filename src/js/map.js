@@ -13,6 +13,5 @@ function init_map() {
 	google.maps.event.addListener(marker, 'click', function() {
 		infowindow.open(map, marker);
 	});
-	infowindow.open(map, marker);
 }
 google.maps.event.addDomListener(window, 'load', init_map);
