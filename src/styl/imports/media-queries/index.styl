@@ -1,3 +1,4 @@
+// MAX SCREEN WIDTH - 1000px
 @media only screen and (max-width: 1000px)
 	
 	section.top
@@ -35,16 +36,32 @@
 			div.container
 				width 100%
 
+// MAX SCREEN WIDTH - 767px
 @media only screen and (max-width: 767px)
 
 	section.top
-		padding 50px 0
+		padding 0 0 50px 0
 		
 		div.carousel
-			width 95%
+			width 100%
+			margin 0 0 20px 0
 			
 			div.carousel-box
 				width 100%
+
+				img
+					border none
+					
+		div.welcome
+			
+			div.container
+				
+				h1
+					font-size 350%
+					
+				p
+					font-size 20px
+					line-height 1.5
 					
 	section.middle
 		flex-direction column
@@ -64,3 +81,21 @@
 			&.achievements
 				margin 0
 			
+	section.bottom
+		
+		div.image
+			
+			img
+				width 85%
+		
+		div.message
+			padding 0 0 30px 0
+			
+			div.container
+				
+				h1
+					font-size 40px
+				
+				p
+					font-size 19px
+					line-height 1.5
