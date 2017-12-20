@@ -1,4 +1,16 @@
 div.footer-content.flex
+	
+	div.map.flex
+
+		script(src='https://maps.googleapis.com/maps/api/js?v=3.exp')
+		
+		div(style='overflow:hidden;height:250px;width:100%;border:3px solid #FD5D2D')
+
+			#gmap_canvas(style='height:100%;width:100%')
+
+			style
+				| img{max-width:none!important;background:none!important}
+				
 
 	div.info.flex
 

@@ -27,15 +27,21 @@ gulp.task('stylus', function() {
 })
 
 gulp.task('scripts', function() {
-	return gulp.src('src/js/*.js')
+	return gulp.src('src/js/navigation.js')
 	.pipe(concat('scripts.js'))
-	.pipe(babel())
-	// .pipe(uglify())
+	.pipe(babel({
+		presets: 'env'
+	}))
+	.pipe(uglify())
 	.pipe(gulp.dest('dist/assets/js'))
 })
 
-gulp.task('pug+styl', ['pug', 'stylus'], function() {
-	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl'], ['pug', 'stylus']);
+gulp.task('indexScripts', function() {
+	return gulp.src(['src/js/carousel.js', 'src/js/updates.js', 'src/js/map.js'])
+	.pipe(concat('index.js'))
+	.pipe(babel())
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/assets/js'))
 })
 
 gulp.task('deploy', function() {
@@ -45,10 +51,10 @@ gulp.task('deploy', function() {
 	})
 })
 
-gulp.task('deployWatch', ['pug', 'stylus', 'scripts', 'deploy'], function() {
-	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts', 'deploy']);
+gulp.task('deployWatch', ['pug', 'stylus', 'scripts', 'indexScripts', 'deploy'], function() {
+	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts', 'indexScripts', 'deploy']);
 })
 
-gulp.task('default', ['pug', 'stylus', 'scripts'], function () {
-	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts']);
+gulp.task('default', ['pug', 'stylus', 'scripts', 'indexScripts'], function () {
+	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts', 'indexScripts']);
 })
