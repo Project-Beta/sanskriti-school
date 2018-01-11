@@ -5,7 +5,8 @@ section.main
 	border-bottom 2px solid sanskriti-orange
 	
 	div.container
-		width 50%
+		width 90%
+		max-width 1000px
 		margin 0 auto
 		padding 70px 0
 		font-family "Alegreya Sans"
@@ -23,6 +24,8 @@ section.main
 				letter-spacing 1.2px
 		
 		div.text
+			overflow-x auto
+			overflow-y auto
 
 			p
 				font-size 23px
@@ -66,6 +69,7 @@ section.main
 			
 			table
 				width 100%
+				margin 8% 0
 			
 				tr
 					padding 20px 0
@@ -74,5 +78,15 @@ section.main
 				
 				th
 					text-align left
+				
+				td
+					padding-left 3px
+					padding-right 3px
+				
+				&.border
+					border-collapse collapse
+
+					table, th, td
+						border 1px solid black
 
 @import "../imports/media-queries/universal"
