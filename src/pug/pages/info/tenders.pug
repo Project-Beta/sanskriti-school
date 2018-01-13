@@ -1,13 +1,59 @@
 doctype html
 
 html(lang='en')
+
 	head
+
 		title Tenders &bull; Sanskriti School
+
 		include ../../includes/head-general.pug
+
 	body
+
 		div.container
+
 			section.navigation.flex
+
 				include ../../includes/navigation.pug
+
 			section.main
+
+				.container
+
+					.title
+
+						h1 Tenders
+
+					.text
+
+						table.border
+
+							tbody
+
+								tr
+
+									th Slno
+									th Item
+									th
+										center Document
+									th
+										center Last date
+									th Status
+
+								tr
+
+									td
+										center 1.
+									td Miscellaneous civil repair works
+									td
+										center
+											a(href='http://sanskritischool.edu.in/tender/Misc_Civil_Works_Tender_DEC_2017.pdf', target='_blank') Tender Notice
+									td
+										center
+											strong 19/01/2018
+									td
+										center OPEN
+
 			section.footer
+
 				include ../../includes/footer.pug
