@@ -5,7 +5,7 @@
 - [ ] Junior school newsletter page
 - [ ] Mobile friendly general pages
 - [ ] News archive page
-- [ ] 'Read More' on index page
+- [x] 'Read More' on index page
 - [x] ProjectBeta link to https
 - [x] Anchor links border bottom
 - [ ] Carousel Photos
