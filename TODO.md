@@ -8,7 +8,7 @@
 - [x] 'Read More' on index page
 - [x] ProjectBeta link to https
 - [x] Anchor links border bottom
-- [ ] Carousel Photos
+- [x] Carousel Photos
 - [x] Footer 2017 --> 2018
 
 - [x] iPad issue
