@@ -2,24 +2,49 @@
 	"news": {
 		"items": [
 			{
-				"message": "Dear Parents, please note that there will be No morning and afternoon activities till air quality index improves",
-				"date": "29/11/17",
-				"type": "text",
+				"message": "Term II Practical Schedule Class XI, Annual Term Date sheet Class 9 and 11",
+				"date": "13/01/2018",
+				"type": "link",
+				"href": "http://sanskritischool.edu.in/News/Practical11.pdf",
 				"important": "no"
 			},
 
 			{
-				"message": "Winter timings(7.45 am-2.00 pm) would be applicable from Friday, December 1, 2017.",
-				"date": "28/11/17",
-				"type": "text",
+				"message": "Annual Term Date sheet Class 9 and 11",
+				"date": "13/01/2018",
+				"type": "link",
+				"href": "http://sanskritischool.edu.in/News/Annual9&11.pdf",
+				"important": "no"
+			},
+
+			{
+				"message": "Requirements for writers for differently abled students",
+				"date": "09/01/2018",
+				"type": "link",
+				"href": "http://sanskritischool.edu.in/News/REQUIREMENTS_WRITERS_DIFFERENTLY_ABLED_STUDENTS.docx.pdf",
 				"important": "no"
 			},
 			
 			{
-				"message": "Middle School Trips: Parents are requested to check the updates in their logins.",
-				"date": "27/11/17",
-				"type": "text",
+				"message": "Circular for Class IV and V",
+				"date": "27/12/2017",
+				"type": "link",
+				"href": "http://sanskritischool.edu.in/News/Circular_for_class_IV_V_dec_2017.pdf",
 				"important": "no"
+			},
+
+			{
+				"message": "Sanskriti School Intra MUN Newsletter- Day 3",
+				"date": "26/12/2017",
+				"type": "link",
+				"href": "http://sanskritischool.edu.in/News/Newsletter3FInal.pdf"
+			},
+
+			{
+				"message": "Raffle Draw Results",
+				"date": "23/12/2017",
+				"type": "link",
+				"href": "http://sanskritischool.edu.in/News/Result_of_Raffle_draw_on_23DEC_2017.pdf"
 			}
 		]
 	},
@@ -27,53 +52,31 @@
 	"achievements": {
 		"items": [
 			{
-				"message": "Bizzonomy club participation in children's day event for underprivileged",
-				"date": "27/11/17",
-				"type": "link",
-				"href": "/news/bizzonomy-club",
+				"message": "Students of Sanskriti school have shown spectacular performance in the Australian National Chemistry Quiz 2017 held on August 23. Out of 77 participants, two students, SHIVANG VERMA of class 8 and KSHITIJ BAJAJ of class 10 have been conferred the HD Excellence award for outstanding performance'. 25 other students are among the top 10% of students of the the state and given the High Distinction award. Congratulations to ALL ! <a href='http://sanskritischool.edu.in/News/ANCQ_2017.pdf'>Click here for detailed result​​.</a>",
+				"date": "10/01/2018",
+				"type": "text",
 				"important": "no"
 			},
 
 			{
-				"message": "First prize in India's biggest quiz competition- Inquizitive minds",
-				"date": "26/11/17",
+				"message": "Result of SOF National Science Olympiad",
+				"date": "27/12/2017",
 				"type": "link",
-				"href": "/news/inquizitive-minds-first-prize",
-				"important": "yes"
+				"href": "http://sanskritischool.edu.in/News/DL05171.pdf"
 			},
 
 			{
-				"message": "Interschool Quiz Competition",
-				"date": "25/11/17",
+				"message": "Sanskriti School wins at EdTech Summit 2017",
+				"date": "24/12/2017",
 				"type": "link",
-				"href": "/news/interschool-quiz-competitions",
-				"important": "no"
+				"href": "http://sanskritischool.edu.in/News/EdTech_Summit_2017.pdf"
 			}
 		]
 	},
 
 	"sports": {
 		"items": [
-			{
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"date": "27/01/17",
-				"type": "text",
-				"importance": "normal"
-			},
 
-			{
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"date": "26/11/17",
-				"type": "text",
-				"importance": "normal"
-			},
-
-			{
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"date": "25/11/17",
-				"type": "text",
-				"importance": "normal"
-			}
 		]
 	}
 }

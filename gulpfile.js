@@ -44,6 +44,14 @@ gulp.task('indexScripts', function() {
 	.pipe(gulp.dest('dist/assets/js'))
 })
 
+gulp.task('newsScripts', function () {
+	return gulp.src('src/js/news-archives.js')
+		.pipe(concat('news.js'))
+		.pipe(babel())
+		// .pipe(uglify())
+		.pipe(gulp.dest('dist/assets/js'))
+})
+
 gulp.task('deploy', function() {
 	return surge({
 		project: './dist',
@@ -51,10 +59,6 @@ gulp.task('deploy', function() {
 	})
 })
 
-gulp.task('deployWatch', ['pug', 'stylus', 'scripts', 'indexScripts', 'deploy'], function() {
-	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts', 'indexScripts', 'deploy']);
-})
-
-gulp.task('default', ['pug', 'stylus', 'scripts', 'indexScripts'], function () {
-	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts', 'indexScripts']);
+gulp.task('default', ['pug', 'stylus', 'scripts', 'indexScripts', 'newsScripts'], function () {
+	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts', 'indexScripts', 'newsScripts']);
 })

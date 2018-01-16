@@ -1,0 +1,39 @@
+doctype html
+
+html(lang='en')
+
+	head
+
+		title Achievements &bull; Sanskriti School
+
+		script var page = 1;
+
+		script(src="/assets/js/news.js")
+
+		include ../../includes/head-general.pug
+
+	body
+
+		div.container
+
+			section.navigation.flex
+
+				include ../../includes/navigation.pug
+
+			section.main
+
+				.container
+
+					.title
+
+						h1 Achievements
+					
+					.text
+
+						.container
+
+						a(href="/news/archive.html") News Archive
+
+			section.footer
+
+				include ../../includes/footer.pug

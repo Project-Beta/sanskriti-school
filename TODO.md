@@ -4,7 +4,7 @@
 - [x] Admission pages
 - [x] Junior school newsletter page
 - [x] Mobile friendly general pages
-- [ ] News archive page
+- [x] News archive page
 - [x] 'Read More' on index page
 - [x] ProjectBeta link to https
 - [x] Anchor links border bottom
