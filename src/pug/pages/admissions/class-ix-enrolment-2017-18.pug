@@ -1,13 +1,120 @@
 doctype html
 
 html(lang='en')
+
 	head
+
 		title Class IX Enrolment 2017-18 &bull; Sanskriti School
+
 		include ../../includes/head-general.pug
+
 	body
+
 		div.container
+
 			section.navigation.flex
+
 				include ../../includes/navigation.pug
+
 			section.main
+
+				.container
+
+					.title
+
+						h1 Class IX Enrolment 2017-18
+					
+					.text
+
+						h2 Admission Schedule
+
+						table.border
+
+							tbody
+
+								tr
+
+									th(width='06%') S. No.
+									th(width='60%')
+										center Item
+									th(width='15%')
+										center Status
+									th(width='15%') Due Date
+
+								tr
+
+									td 1.
+									td
+										| Syllabus for Entrance Test
+										ul
+											li English
+											li Mathematics
+											li Science
+											li Any One Language
+									td
+										a(href='http://sanskritischool.edu.in/News/Syllabus_For_Entrance_Test_To_Class_IX_1718.pdf', target='_blank') Download
+									td  
+
+								tr
+
+									td 2.
+									td Commencement of Admission, availability of registration forms
+									td(rowspan='2') Closed
+									td 07/02/2017
+
+								tr
+
+									td 3.
+									td Last date for submission of application forms
+									td 14/02/2017
+
+								tr
+
+									td 4.
+									td Uploading details of children who applied for admission
+									td
+										a(href='http://sanskritischool.edu.in/News/Registered_for_admission_Class_IX_201718.pdf', target='_blank') View List
+									td 16/02/2017
+
+								tr
+
+									td 5.
+									td
+										| List of shortlisted Candidates for entrance test on 18/02/2017(Saturday) from 08:00am to 11:00am
+									td
+										strong
+											a(href='http://sanskritischool.edu.in/News/Candidates_for_entrance_test_class_IX_on_18022017.pdf', target='_blank') View List
+									td 16/02/2017
+
+								tr
+
+									td 6.
+									td
+										| List of Qualified candidate 
+										br
+										| Note: Students are requested to bring the following documents at the time of interview for verification: 
+										br
+										| For Government category: Copy of posting /transfer/deputation order and Class VIII- Term-1 Mark sheet. 
+										br
+										| For General category: A copy of Class VIII- Term-1 Mark sheet.
+									td
+										a(href='http://sanskritischool.edu.in/News/Candidates_for_interview_class_IX_on_22022017.pdf', target='_blank') View List
+									td
+										| 21/02/2017
+										br
+										| from 09:00am as per schedule allocated in the list
+
+								tr
+
+									td 7.
+									td
+										strong
+											| Parents of shortlisted Candidates shall fill the Enrollment form at Accounts Department in the Administration Block (basement) on 14/03/2017 between 11:00am to 2:00pm
+									td
+										a(href='http://sanskritischool.edu.in/News/List_of_IX_Candidates_shortlisted_for_Enrollment_201718.pdf', target='_blank') View List
+									td
+										strong 02/03/2017
+
 			section.footer
+
 				include ../../includes/footer.pug

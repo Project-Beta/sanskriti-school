@@ -1,8 +1,8 @@
 ### To Do
 
 
-- [ ] Admission pages
-- [ ] Junior school newsletter page
+- [x] Admission pages
+- [x] Junior school newsletter page
 - [x] Mobile friendly general pages
 - [ ] News archive page
 - [x] 'Read More' on index page
@@ -11,4 +11,4 @@
 - [ ] Carousel Photos
 - [x] Footer 2017 --> 2018
 
-- [ ] iPad issue
+- [x] iPad issue

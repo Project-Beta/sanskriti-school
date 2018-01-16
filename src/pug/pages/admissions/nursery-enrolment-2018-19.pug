@@ -1,13 +1,131 @@
 doctype html
 
 html(lang='en')
+
 	head
-		title Nursery Enrolment 2017-18 &bull; Sanskriti School
+
+		title Nursery Enrolment 2018-19 &bull; Sanskriti School
+
 		include ../../includes/head-general.pug
+
 	body
+
 		div.container
+
 			section.navigation.flex
+
 				include ../../includes/navigation.pug
+
 			section.main
+
+				.container
+
+					.title
+
+						h1 Nusery Enrolment 2018-19
+					
+					.text
+
+						h2 Admission Schedule
+
+						table
+
+							tbody
+
+								tr
+
+									th(width='06%') S. No.
+									th(width='60%')
+										center Item
+									th(width='15%')
+										center Status
+									th(width='19%') Due Date
+
+								tr
+
+									td 1.
+									td
+										| Admission Information for Preschool 2018-2019; Categories, Criteria and Procedure
+									td
+										a(href='http://sanskritischool.edu.in/News/Guidelines1819.pdf', target='_blank') Download
+									td  
+
+								tr
+
+									td 2.
+									td Commencement of Admission, availability of application forms
+									td(rowspan='2')
+										a(href='http://www.sscampuscare.in/', target='_blank') OPEN
+									td 27/12/2017
+
+								tr
+
+									td 3.
+									td Last date for submission of application forms in school
+									td 17/01/2018
+
+								tr
+
+									td 4.
+									td
+										| Uploading details of children who applied to the School for admission under open seats
+									td  
+									td 01/02/2018
+
+								tr
+
+									td 5.
+									td
+										| Uploading marks (as per point System) given to each of the children who applied for admission under open seats
+									td  
+									td 08/02/2018
+
+								tr
+
+									td 6.
+									td
+										| The date for displaying the First list of selected candidates (Including waiting list) (along with marks allotted under point system)
+									td  
+									td(nowrap='nowrap') 15/02/2018
+
+								tr
+
+									td 7
+									td
+										| Resolution of queries of parents if any (regarding the first list) regarding allotment of points to their ward in the first list
+									td  
+									td 16/02/2018 to 20/02/2018
+
+								tr
+
+									td 8
+									td
+										| The date for displaying the Second list of selected candidates (if any) (Including waiting list) (along with marks allotted under point system)
+									td  
+									td 28/02/2018
+
+								tr
+
+									td 9
+									td
+										| Resolution of queries of parents if any (regarding the second list) regarding allotment of points to their ward in the Second list
+									td  
+									td 01/03/2018 to 07/03/2018
+
+								tr
+
+									td 10
+									td Subsequent list of admission , if any
+									td  
+									td 15/03/2018
+
+								tr
+
+									td 11
+									td Closure of admission process
+									td  
+									td 31/03/2018
+
 			section.footer
+
 				include ../../includes/footer.pug
