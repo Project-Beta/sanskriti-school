@@ -48,7 +48,7 @@ gulp.task('newsScripts', function () {
 	return gulp.src('src/js/news-archives.js')
 		.pipe(concat('news.js'))
 		.pipe(babel())
-		// .pipe(uglify())
+		.pipe(uglify())
 		.pipe(gulp.dest('dist/assets/js'))
 })
 

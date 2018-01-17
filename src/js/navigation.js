@@ -89,3 +89,6 @@ for (let i = 0; i < barList.length; i++) {
 		}
 	})(i);
 }
+
+console.log("Lol, what are you doing 'inspecting the element'? GG have fun.");
+console.log("- ProjectBeta, Change the Status Quo");
