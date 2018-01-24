@@ -6,5 +6,5 @@ var siema = new Siema({
 })
 
 setInterval(function(){
-	siema.currentSlide === 4 ? siema.goTo(0) : siema.goTo(siema.currentSlide+1);
+	siema.currentSlide === 6 ? siema.goTo(0) : siema.goTo(siema.currentSlide+1);
 }, 4000)
