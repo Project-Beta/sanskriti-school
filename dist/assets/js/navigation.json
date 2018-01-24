@@ -1,0 +1,164 @@
+{
+	"About Us": [
+		{
+			"name": "History",
+			"href": "/about-us/history.html"
+		},
+		{
+			"name": "Objectives",
+			"href": "/about-us/objectives.html"
+		},
+		{
+			"name": "Mission",
+			"href": "/about-us/mission.html"
+		},
+		{
+			"name": "Managing Committee",
+			"href": "/about-us/managing-committee.html"
+		},
+		{
+			"name": "PTA",
+			"href": "/about-us/pta.html"
+		},
+		{
+			"name": "Principal",
+			"href": "/about-us/principal.html"
+		},
+		{
+			"name": "Incharges",
+			"href": "/about-us/incharges.html"
+		},
+		{
+			"name": "Staff",
+			"href": "/about-us/staff.html"
+		},
+		{
+			"name": "Counselling",
+			"href": "/about-us/counselling.html"
+		},
+		{
+			"name": "Clubs",
+			"href": "/about-us/clubs.html"
+		},
+		{
+			"name": "Houses",
+			"href": "/about-us/houses.html"
+		},
+		{
+			"name": "Student Council",
+			"href": "/about-us/student-council.html"
+		},
+		{
+			"name": "Umang",
+			"href": "/about-us/umang.html"
+		},
+		{
+			"name": "Contractual Workmen",
+			"href": "/about-us/contractual-workmen.html"
+		},
+		{
+			"name": "School Information",
+			"href": "/about-us/school-information.html"
+		},
+		{
+			"name": "RTI Information",
+			"href": "/assets/pdf/RTI_2017.pdf"
+		}
+	],
+	"Curriculum": [
+		{
+			"name": "Early Child Development",
+			"href": "/curriculum/early-child-development.html"
+		},
+		{
+			"name": "Junior School",
+			"href": "/curriculum/junior-school.html"
+		},
+		{
+			"name": "Middle School",
+			"href": "/curriculum/middle-school.html"
+		},
+		{
+			"name": "Senior School",
+			"href": "/curriculum/senior-school.html"
+		},
+		{
+			"name": "Learning Centre",
+			"href": "/curriculum/learning-centre.html"
+		},
+		{
+			"name": "Smartskills",
+			"href": "/curriculum/smartskills.html"
+		}
+	],
+	"Admissions": [
+		{
+			"name": "Fee Structure 2016-17",
+			"href": "/admissions/fee-structure-2016-17.html"
+		},
+		{
+			"name": "Section Wise Enrolment 2016-17",
+			"href": "/admissions/section-wise-enrolment-2016-17.html"
+		},
+		{
+			"name": "Nursery Enrolment 2018-19",
+			"href": "/admissions/nursery-enrolment-2018-19.html"
+		},
+		{
+			"name": "Class IX Enrolment 2017-18",
+			"href": "/admissions/class-ix-enrolment-2017-18.html"
+		},
+		{
+			"name": "Class XI Enrolment 2017-18",
+			"href": "/admissions/class-xi-enrolment-2017-18.html"
+		}
+	],
+	"Infrastructure": [
+		{
+			"name": "Details Of Campus",
+			"href": "/infrastructure/details-of-campus.html"
+		},
+		{
+			"name": "Library",
+			"href": "/infrastructure/library.html"
+		},
+		{
+			"name": "Canteen",
+			"href": "/infrastructure/canteen.html"
+		},
+		{
+			"name": "Amphitheatre",
+			"href": "/infrastructure/amphitheatre.html"
+		},
+		{
+			"name": "Administration Block",
+			"href": "/infrastructure/administration-block.html"
+		},
+		{
+			"name": "Sports Facilities",
+			"href": "/infrastructure/sports-facilities.html"
+		},
+		{
+			"name": "Art Block",
+			"href": "/infrastructure/art-block.html"
+		},
+		{
+			"name": "Classrooms",
+			"href": "/infrastructure/classrooms.html"
+		},
+		{
+			"name": "Labs",
+			"href": "/infrastructure/labs.html"
+		},
+		{
+			"name": "Transport Facilities",
+			"href": "/infrastructure/transport.html"
+		},
+		{
+			"name": "Infirmary",
+			"href": "/infrastructure/infirmary.html"
+		}
+	],
+	"Tenders": "/info/tenders.html",
+	"Login": "http: //www.sscampuscare.in/"
+}
