@@ -18,7 +18,7 @@ xmlhttp.onreadystatechange = function () {
 		insertItems();
 	}
 };
-xmlhttp.open("GET", "/assets/js/updates.json", true);
+xmlhttp.open("GET", "/assets/json/updates.json", true);
 xmlhttp.send();
 
 var months = [null, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];

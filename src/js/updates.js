@@ -14,7 +14,7 @@ xmlhttp.onreadystatechange = function() {
 		insertItems();
 	}
 };
-xmlhttp.open("GET", "/assets/js/updates.json", true);
+xmlhttp.open("GET", "/assets/json/updates.json", true);
 xmlhttp.send();
 
 

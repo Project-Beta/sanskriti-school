@@ -11,7 +11,7 @@ xmlhttp.onreadystatechange = function () {
 	}
 };
 
-xmlhttp.open("GET", "/assets/js/navigation.json", true);
+xmlhttp.open("GET", "/assets/json/navigation.json", true);
 xmlhttp.send();
 
 function fillNav() {
