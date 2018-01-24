@@ -2,63 +2,63 @@
 	"About Us": [
 		{
 			"name": "History",
-			"href": "/about-us/history.html"
+			"href": "/about-us/history"
 		},
 		{
 			"name": "Objectives",
-			"href": "/about-us/objectives.html"
+			"href": "/about-us/objectives"
 		},
 		{
 			"name": "Mission",
-			"href": "/about-us/mission.html"
+			"href": "/about-us/mission"
 		},
 		{
 			"name": "Managing Committee",
-			"href": "/about-us/managing-committee.html"
+			"href": "/about-us/managing-committee"
 		},
 		{
 			"name": "PTA",
-			"href": "/about-us/pta.html"
+			"href": "/about-us/pta"
 		},
 		{
 			"name": "Principal",
-			"href": "/about-us/principal.html"
+			"href": "/about-us/principal"
 		},
 		{
 			"name": "Incharges",
-			"href": "/about-us/incharges.html"
+			"href": "/about-us/incharges"
 		},
 		{
 			"name": "Staff",
-			"href": "/about-us/staff.html"
+			"href": "/about-us/staff"
 		},
 		{
 			"name": "Counselling",
-			"href": "/about-us/counselling.html"
+			"href": "/about-us/counselling"
 		},
 		{
 			"name": "Clubs",
-			"href": "/about-us/clubs.html"
+			"href": "/about-us/clubs"
 		},
 		{
 			"name": "Houses",
-			"href": "/about-us/houses.html"
+			"href": "/about-us/houses"
 		},
 		{
 			"name": "Student Council",
-			"href": "/about-us/student-council.html"
+			"href": "/about-us/student-council"
 		},
 		{
 			"name": "Umang",
-			"href": "/about-us/umang.html"
+			"href": "/about-us/umang"
 		},
 		{
 			"name": "Contractual Workmen",
-			"href": "/about-us/contractual-workmen.html"
+			"href": "/about-us/contractual-workmen"
 		},
 		{
 			"name": "School Information",
-			"href": "/about-us/school-information.html"
+			"href": "/about-us/school-information"
 		},
 		{
 			"name": "RTI Information",
@@ -68,97 +68,97 @@
 	"Curriculum": [
 		{
 			"name": "Early Child Development",
-			"href": "/curriculum/early-child-development.html"
+			"href": "/curriculum/early-child-development"
 		},
 		{
 			"name": "Junior School",
-			"href": "/curriculum/junior-school.html"
+			"href": "/curriculum/junior-school"
 		},
 		{
 			"name": "Middle School",
-			"href": "/curriculum/middle-school.html"
+			"href": "/curriculum/middle-school"
 		},
 		{
 			"name": "Senior School",
-			"href": "/curriculum/senior-school.html"
+			"href": "/curriculum/senior-school"
 		},
 		{
 			"name": "Learning Centre",
-			"href": "/curriculum/learning-centre.html"
+			"href": "/curriculum/learning-centre"
 		},
 		{
 			"name": "Smartskills",
-			"href": "/curriculum/smartskills.html"
+			"href": "/curriculum/smartskills"
 		}
 	],
 	"Admissions": [
 		{
 			"name": "Fee Structure 2016-17",
-			"href": "/admissions/fee-structure-2016-17.html"
+			"href": "/admissions/fee-structure-2016-17"
 		},
 		{
 			"name": "Section Wise Enrolment 2016-17",
-			"href": "/admissions/section-wise-enrolment-2016-17.html"
+			"href": "/admissions/section-wise-enrolment-2016-17"
 		},
 		{
 			"name": "Nursery Enrolment 2018-19",
-			"href": "/admissions/nursery-enrolment-2018-19.html"
+			"href": "/admissions/nursery-enrolment-2018-19"
 		},
 		{
 			"name": "Class IX Enrolment 2017-18",
-			"href": "/admissions/class-ix-enrolment-2017-18.html"
+			"href": "/admissions/class-ix-enrolment-2017-18"
 		},
 		{
 			"name": "Class XI Enrolment 2017-18",
-			"href": "/admissions/class-xi-enrolment-2017-18.html"
+			"href": "/admissions/class-xi-enrolment-2017-18"
 		}
 	],
 	"Infrastructure": [
 		{
 			"name": "Details Of Campus",
-			"href": "/infrastructure/details-of-campus.html"
+			"href": "/infrastructure/details-of-campus"
 		},
 		{
 			"name": "Library",
-			"href": "/infrastructure/library.html"
+			"href": "/infrastructure/library"
 		},
 		{
 			"name": "Canteen",
-			"href": "/infrastructure/canteen.html"
+			"href": "/infrastructure/canteen"
 		},
 		{
 			"name": "Amphitheatre",
-			"href": "/infrastructure/amphitheatre.html"
+			"href": "/infrastructure/amphitheatre"
 		},
 		{
 			"name": "Administration Block",
-			"href": "/infrastructure/administration-block.html"
+			"href": "/infrastructure/administration-block"
 		},
 		{
 			"name": "Sports Facilities",
-			"href": "/infrastructure/sports-facilities.html"
+			"href": "/infrastructure/sports-facilities"
 		},
 		{
 			"name": "Art Block",
-			"href": "/infrastructure/art-block.html"
+			"href": "/infrastructure/art-block"
 		},
 		{
 			"name": "Classrooms",
-			"href": "/infrastructure/classrooms.html"
+			"href": "/infrastructure/classrooms"
 		},
 		{
 			"name": "Labs",
-			"href": "/infrastructure/labs.html"
+			"href": "/infrastructure/labs"
 		},
 		{
 			"name": "Transport Facilities",
-			"href": "/infrastructure/transport.html"
+			"href": "/infrastructure/transport"
 		},
 		{
 			"name": "Infirmary",
-			"href": "/infrastructure/infirmary.html"
+			"href": "/infrastructure/infirmary"
 		}
 	],
-	"Tenders": "/info/tenders.html",
+	"Tenders": "/info/tenders",
 	"Login": "http: //www.sscampuscare.in/"
 }
