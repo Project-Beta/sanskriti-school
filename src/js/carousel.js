@@ -5,6 +5,8 @@ var siema = new Siema({
 	loop: true
 })
 
+var carouselBox = document.querySelectorAll(".carousel-box img");
+
 setInterval(function(){
-	siema.currentSlide === 6 ? siema.goTo(0) : siema.goTo(siema.currentSlide+1);
+	siema.currentSlide === (carouselBox.length - 1) ? siema.goTo(0) : siema.goTo(siema.currentSlide+1);
 }, 4000)
