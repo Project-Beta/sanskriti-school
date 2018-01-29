@@ -12,11 +12,14 @@
 
 				.carousel-box.noselect
 
-					each num in [1, 2, 3, 4, 5, 6, 7]
+					- var alts = [null, "View of the school from top of the auditorium", "Photo of the administrative block.", "Photo of a colourful nursery classroom.", "Photo of the Junior school central courtyard", "Photo of the amphitheatre, canteen and 5th grade block from the first floor.", "Photo of the large and spacious auditorium."]
+					- var i = 1;
+
+					while i < 7
 
 						div
 		
-							img(src="/assets/img/carousel/c"+num+".jpg")
+							img(src="/assets/img/carousel/c"+i+".jpg" alt=alts[i++])
 
 			.welcome.flex
 
