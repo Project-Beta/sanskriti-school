@@ -2,63 +2,63 @@
 	"About Us": [
 		{
 			"name": "History",
-			"href": "/about-us/history"
+			"href": "/about/history"
 		},
 		{
 			"name": "Objectives",
-			"href": "/about-us/objectives"
+			"href": "/about/objectives"
 		},
 		{
 			"name": "Mission",
-			"href": "/about-us/mission"
+			"href": "/about/mission"
 		},
 		{
 			"name": "Managing Committee",
-			"href": "/about-us/managing-committee"
+			"href": "/about/managing-committee"
 		},
 		{
 			"name": "PTA",
-			"href": "/about-us/pta"
+			"href": "/about/pta"
 		},
 		{
 			"name": "Principal",
-			"href": "/about-us/principal"
+			"href": "/about/principal"
 		},
 		{
 			"name": "Incharges",
-			"href": "/about-us/incharges"
+			"href": "/about/incharges"
 		},
 		{
 			"name": "Staff",
-			"href": "/about-us/staff"
+			"href": "/about/staff"
 		},
 		{
 			"name": "Counselling",
-			"href": "/about-us/counselling"
+			"href": "/about/counselling"
 		},
 		{
 			"name": "Clubs",
-			"href": "/about-us/clubs"
+			"href": "/about/clubs"
 		},
 		{
 			"name": "Houses",
-			"href": "/about-us/houses"
+			"href": "/about/houses"
 		},
 		{
 			"name": "Student Council",
-			"href": "/about-us/student-council"
+			"href": "/about/student-council"
 		},
 		{
 			"name": "Umang",
-			"href": "/about-us/umang"
+			"href": "/about/umang"
 		},
 		{
 			"name": "Contractual Workmen",
-			"href": "/about-us/contractual-workmen"
+			"href": "/about/contractual-workmen"
 		},
 		{
 			"name": "School Information",
-			"href": "/about-us/school-information"
+			"href": "/about/school-information"
 		},
 		{
 			"name": "RTI Information",
