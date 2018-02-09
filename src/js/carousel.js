@@ -2,7 +2,8 @@
 
 var siema = new Siema({
 	selector: '.carousel-box',
-	loop: true
+	loop: true,
+	onInit: () => document.querySelector(".carousel-box").style.visibility = 'visible'
 })
 
 var carouselBox = document.querySelectorAll(".carousel-box img");
