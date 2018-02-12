@@ -1,4 +1,4 @@
-# Official website of Sanskriti School, New Delhi, India
+#Official website of Sanskriti School, New Delhi, India
 
 Development/Testing: [https://sanskriti.surge.sh](https://sanskriti.surge.sh)
 
