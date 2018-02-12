@@ -6,6 +6,15 @@ const prettify = require("gulp-prettify");
 const pug = require("gulp-pug");
 const stylus = require("gulp-stylus");
 const surge = require("gulp-surge");
+const webserver = require("gulp-webserver");
+
+gulp.task('webserver', function() {
+	return gulp.src("dist")
+	.pipe(webserver({
+		livereload: true,
+		open: true
+	}))
+})
 
 gulp.task('pug', function() {
 	return gulp.src('src/pug/pages/**/*.pug')
@@ -53,6 +62,6 @@ gulp.task('deploy', function() {
 	})
 })
 
-gulp.task('default', ['pug', 'stylus', 'scripts', 'indexScripts', 'newsScripts'], function () {
+gulp.task('default', ['webserver', 'pug', 'stylus', 'scripts', 'indexScripts', 'newsScripts'], function () {
 	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts', 'indexScripts', 'newsScripts']);
 })

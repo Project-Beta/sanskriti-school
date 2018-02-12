@@ -37,7 +37,7 @@
     "gulp-stylus": "^2.7.0",
     "gulp-surge": "0.1.0",
     "gulp-watch": "^4.3.11",
-    "local-web-server": "^2.4.0"
+    "gulp-webserver": "^0.9.1"
   },
   "git": {
     "scripts": {
