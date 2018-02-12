@@ -40,6 +40,7 @@
   },
   "git": {
     "scripts": {
+      "post-commit": "fswebcam -r 1280x720 ~/commit-photos/%Y-%m-%d_%H:%M:%S.jpg -q",
       "pre-push": "surge --project ./dist/ --domain sanskriti.surge.sh"
     }
   }
