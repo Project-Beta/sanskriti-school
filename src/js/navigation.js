@@ -1,97 +1,97 @@
-var linkList;
+// var linkList;
 
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
+// var xmlhttp = new XMLHttpRequest();
+// xmlhttp.onreadystatechange = function () {
 
-	if (this.readyState == 4 && this.status == 200) {
+// 	if (this.readyState == 4 && this.status == 200) {
 	
-		linkList = JSON.parse(this.responseText);
-		fillNav();
+// 		linkList = JSON.parse(this.responseText);
+// 		fillNav();
 	
-	}
-};
+// 	}
+// };
 
-xmlhttp.open("GET", "/assets/json/navigation.json", true);
-xmlhttp.send();
+// xmlhttp.open("GET", "/assets/json/navigation.json", true);
+// xmlhttp.send();
 
-function fillNav() {
+// function fillNav() {
 
-	var allLevelContainer = document.querySelector('section.navigation > div.links');
-	var level1Container = document.querySelector('div.links div.level1');
+// 	var allLevelContainer = document.querySelector('section.navigation > div.links');
+// 	var level1Container = document.querySelector('div.links div.level1');
 
-	for (var key in linkList) {
+// 	for (var key in linkList) {
 
-		var linkDiv;
+// 		var linkDiv;
 		
-		if (linkList.hasOwnProperty(key)) {
+// 		if (linkList.hasOwnProperty(key)) {
 			
-			linkDiv = document.createElement('div');
-			linkDiv.className += 'link flex';
+// 			linkDiv = document.createElement('div');
+// 			linkDiv.className += 'link flex';
 			
-			//Dropdown
-			if (typeof linkList[key] === "object") {
+// 			//Dropdown
+// 			if (typeof linkList[key] === "object") {
 				
-				var className = key.replace(/\s+/g, '-').toLowerCase()
-				linkDiv.className += (" " + className);
+// 				var className = key.replace(/\s+/g, '-').toLowerCase()
+// 				linkDiv.className += (" " + className);
 
-				var anchor = document.createElement('a');
-				var anchorText = document.createTextNode(key + "\xa0\u25be");
-				anchor.className = "flex";
+// 				var anchor = document.createElement('a');
+// 				var anchorText = document.createTextNode(key + "\xa0\u25be");
+// 				anchor.className = "flex";
 				
-				anchor.appendChild(anchorText);
-				linkDiv.appendChild(anchor);
+// 				anchor.appendChild(anchorText);
+// 				linkDiv.appendChild(anchor);
 
-				//Create Level 2 Container
-				var level2 = document.createElement('div');
-				level2.className += (className + " container nodisplay level2");
+// 				//Create Level 2 Container
+// 				var level2 = document.createElement('div');
+// 				level2.className += (className + " container nodisplay level2");
 		
-				//Add links to level 2 container
-				for (var i = 0; i < linkList[key].length; i++) {
+// 				//Add links to level 2 container
+// 				for (var i = 0; i < linkList[key].length; i++) {
 
-					var linkDivLevel2 = document.createElement('div');
-					linkDivLevel2.className += 'link flex';
+// 					var linkDivLevel2 = document.createElement('div');
+// 					linkDivLevel2.className += 'link flex';
 
-					var anchor = document.createElement('a');
-					var anchorText = document.createTextNode(linkList[key][i]["name"]);
-					anchor.className = "flex";
+// 					var anchor = document.createElement('a');
+// 					var anchorText = document.createTextNode(linkList[key][i]["name"]);
+// 					anchor.className = "flex";
 
-					anchor.appendChild(anchorText);
-					anchor.href = linkList[key][i]["href"];
+// 					anchor.appendChild(anchorText);
+// 					anchor.href = linkList[key][i]["href"];
 
-					linkDivLevel2.appendChild(anchor);
+// 					linkDivLevel2.appendChild(anchor);
 
-					level2.appendChild(linkDivLevel2);
+// 					level2.appendChild(linkDivLevel2);
 
-				}
+// 				}
 
-				allLevelContainer.appendChild(level2);
+// 				allLevelContainer.appendChild(level2);
 		
-			}
+// 			}
 
-			//Normal Link
-			else {
+// 			//Normal Link
+// 			else {
 
-				var anchor = document.createElement('a');
-				var anchorText = document.createTextNode(key);
-				anchor.className = "flex";
+// 				var anchor = document.createElement('a');
+// 				var anchorText = document.createTextNode(key);
+// 				anchor.className = "flex";
 				
-				anchor.appendChild(anchorText);
-				anchor.href = linkList[key];
+// 				anchor.appendChild(anchorText);
+// 				anchor.href = linkList[key];
 
-				linkDiv.appendChild(anchor);
+// 				linkDiv.appendChild(anchor);
 
-			}
+// 			}
 
-		}
+// 		}
 
-		level1Container.appendChild(linkDiv);
+// 		level1Container.appendChild(linkDiv);
 
-	}
+// 	}
 
-	startScripts();
+	
+// }
 
-}
-
+startScripts();
 function startScripts() {
 
 	var navbar = document.querySelector('section.navigation');
