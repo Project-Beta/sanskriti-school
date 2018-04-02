@@ -22,7 +22,7 @@
   "homepage": "https://github.com/plibither8/sanskriti-school#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "git-scripts": "^0.2.1",
     "gulp": "^3.9.1",
