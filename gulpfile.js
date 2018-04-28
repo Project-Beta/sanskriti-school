@@ -16,14 +16,14 @@ gulp.task('webserver', function() {
 	}))
 })
 
-gulp.task('pug', function() {
+gulp.task('html', function() {
 	return gulp.src('src/pug/pages/**/*.pug')
 	.pipe(pug())
 	.pipe(prettify())
 	.pipe(gulp.dest('dist/'));
 })
 
-gulp.task('stylus', function() {
+gulp.task('css', function() {
 	return gulp.src('src/styl/pages/*.styl')
 	.pipe(stylus({
 		compress: true
@@ -34,21 +34,21 @@ gulp.task('stylus', function() {
 	.pipe(gulp.dest('dist/assets/css'));
 })
 
-gulp.task('scripts', function() {
+gulp.task('js', function() {
 	return gulp.src(['src/js/navigation.js', 'src/js/draggable.js'])
 	.pipe(concat('scripts.js'))
 	.pipe(minify())
 	.pipe(gulp.dest('dist/assets/js'))
 })
 
-gulp.task('indexScripts', function() {
+gulp.task('js-index', function() {
 	return gulp.src(['src/js/carousel.js', 'src/js/updates.js', 'src/js/map.js'])
 	.pipe(concat('index.js'))
 	.pipe(minify())
 	.pipe(gulp.dest('dist/assets/js'))
 })
 
-gulp.task('newsScripts', function () {
+gulp.task('js-news', function () {
 	return gulp.src('src/js/news-archives.js')
 		.pipe(concat('news.js'))
 		.pipe(minify())
@@ -62,6 +62,6 @@ gulp.task('deploy', function() {
 	})
 })
 
-gulp.task('default', ['webserver', 'pug', 'stylus', 'scripts', 'indexScripts', 'newsScripts'], function () {
-	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['pug', 'stylus', 'scripts', 'indexScripts', 'newsScripts']);
+gulp.task('default', ['webserver', 'html', 'css', 'js', 'js-index', 'js-news'], function () {
+	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['html', 'css', 'js', 'js-index', 'js-news']);
 })
