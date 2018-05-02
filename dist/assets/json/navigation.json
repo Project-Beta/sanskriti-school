@@ -160,5 +160,6 @@
 		}
 	],
 	"Tenders": "/info/tenders",
-	"Login": "http://www.sscampuscare.in/"
+	"Login": "http://www.sscampuscare.in/",
+	"Safety Committee": "/news/Circular_School_Safety_Committee.pdf"
 }
