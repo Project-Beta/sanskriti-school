@@ -1,82 +1,158 @@
 {
 	"news": {
 		"items": [
-			{
-				"message": "Term II Practical Schedule Class XI, Annual Term Date sheet Class 9 and 11",
-				"date": "13/01/2018",
-				"type": "link",
-				"href": "http://sanskritischool.edu.in/News/Practical11.pdf",
-				"important": "no"
-			},
 
 			{
-				"message": "Annual Term Date sheet Class 9 and 11",
-				"date": "13/01/2018",
+				"message": "Literary Days- Prep",
+				"date": "21/04/2018",
 				"type": "link",
-				"href": "http://sanskritischool.edu.in/News/Annual9&11.pdf",
-				"important": "no"
+				"href": "http://www.sanskritischool.edu.in/News/Literary%20Days-%20Prep.pdf",
+				"important":"no"
 			},
 
-			{
-				"message": "Requirements for writers for differently abled students",
-				"date": "09/01/2018",
-				"type": "link",
-				"href": "http://sanskritischool.edu.in/News/REQUIREMENTS_WRITERS_DIFFERENTLY_ABLED_STUDENTS.docx.pdf",
-				"important": "no"
-			},
 			
 			{
-				"message": "Circular for Class IV and V",
-				"date": "27/12/2017",
+				"message": "Junior School, Literary Days: 19th & 20th April",
+				"date": "22/04/2018",
 				"type": "link",
-				"href": "http://sanskritischool.edu.in/News/Circular_for_class_IV_V_dec_2017.pdf",
-				"important": "no"
+				"href": "http://www.sanskritischool.edu.in/News/JUNIOR%20SCHOOL%20LITERARY%20DAYS.pdf",
+				"important":"no"
 			},
 
 			{
-				"message": "Sanskriti School Intra MUN Newsletter- Day 3",
-				"date": "26/12/2017",
+				"message": "Sanskar; PTA Magazine : April 2018",
+				"date": "24/04/2018",
 				"type": "link",
-				"href": "http://sanskritischool.edu.in/News/Newsletter3FInal.pdf"
+				"href": "http://www.sanskritischool.edu.in/News/April%202018%20Sanskaar.pdf",
+				"important":"no"
 			},
 
 			{
-				"message": "Raffle Draw Results",
-				"date": "23/12/2017",
+				"message": "Please login for an important Circular for Parents",
+				"date": "24/04/2018",
+				"type": "text",
+				"important":"yes"
+			},
+
+			{
+				"message": "Nursery: Parents Day Out Invite",
+				"date": "25/04/2018",
 				"type": "link",
-				"href": "http://sanskritischool.edu.in/News/Result_of_Raffle_draw_on_23DEC_2017.pdf"
+				"href": "http://www.sanskritischool.edu.in/News/parents%20day%20out%20invite.pdf",
+				"important":"no"
+			},
+
+			{
+				"message": "Teri Trip to Mukteshwar",
+				"date": "25/04/2018",
+				"type": "link",
+				"href": "http://www.sanskritischool.edu.in/trip_Teri_April2018.html",
+				"important":"no"
+			},
+
+			{
+				"message": "Class VI - Transition Module",
+				"date": "26/04/2018",
+				"type": "link",
+				"href": "http://www.sanskritischool.edu.in/News/Transition%20Module%20.pdf",
+				"important":"no"
+			},
+
+			{
+				"message": "Graded Hindi UT 1 for classes VI to VIII will be held on Wednesday, August 08-2018, in Annexe Library at 7.30 am.",
+				"date": "02/05/2018",
+				"type": "text",
+				"href": "",
+				"important":"no"
+			},
+
+			{
+				"message": "Psychology UT-1 for Grade XI, scheduled for 14th May, 2018 has been postponed to 4th July, 2018.",
+				"date": "02/05/2018",
+				"type": "text",
+				"important":"no"
+			},
+
+			{
+				"message": "Parents of grade 10 students have an interaction with the Principal on 5th May 2018 from 8:30 am to 9:30 am in the AV room.",
+				"date": "02/05/2018",
+				"type": "text",
+				"important":"no"
 			}
+
 		]
 	},
 
 	"achievements": {
 		"items": [
 			{
-				"message": "Students of Sanskriti school have shown spectacular performance in the Australian National Chemistry Quiz 2017 held on August 23. Out of 77 participants, two students, SHIVANG VERMA of class 8 and KSHITIJ BAJAJ of class 10 have been conferred the HD Excellence award for outstanding performance'. 25 other students are among the top 10% of students of the the state and given the High Distinction award. Congratulations to ALL ! <a href='http://sanskritischool.edu.in/News/ANCQ_2017.pdf'>Click here for detailed result​​.</a>",
-				"date": "10/01/2018",
-				"type": "text",
-				"important": "no"
+				"message": "An Exhibition for Children with Autism",
+				"date": "21/04/2018",
+				"type": "link",
+				"href": "http://www.sanskritischool.edu.in/News/An%20Exhibition%20for%20Children%20with%20Autism.pdf",
+				"important":"no"
 			},
 
 			{
-				"message": "Result of SOF National Science Olympiad",
-				"date": "27/12/2017",
+				"message": "Visit to Nehru Planetarium, New Delhi",
+				"date": "22/04/2018",
 				"type": "link",
-				"href": "http://sanskritischool.edu.in/News/DL05171.pdf"
+				"href": "http://www.sanskritischool.edu.in/News/Report%20on%20Visit%20to%20Nehru%20Planetarium%20New%20Delhi.pdf",
+				"important":"no"
+			},
+			
+			{
+				"message": "Informative session on IPL as a business model",
+				"date": "25/04/2018",
+				"type": "link",
+				"href": "http://www.sanskritischool.edu.in/News/ipl%20presentation.pdf",
+				"important":"no"
 			},
 
 			{
-				"message": "Sanskriti School wins at EdTech Summit 2017",
-				"date": "24/12/2017",
+				"message": "Learning center: Visit to Kidzania",
+				"date": "25/04/2018",
 				"type": "link",
-				"href": "http://sanskritischool.edu.in/News/EdTech_Summit_2017.pdf"
+				"href": "http://www.sanskritischool.edu.in/News/Learning%20center%20visit%20to%20Kidzania.pdf",
+				"important":"no"
+			},
+
+			{
+				"message": "Prep: Parents Day Out",
+				"date": "25/04/2018",
+				"type": "link",
+				"href": "http://www.sanskritischool.edu.in/News/Prep%20Parents%20Day%20Out%2024%2025%20April%202018.pdf",
+				"important":"no"
+			},
+
+			{
+				"message": "Prep: Visit to Lodhi Garden",
+				"date": "26/04/2018",
+				"type": "link",
+				"href": "http://www.sanskritischool.edu.in/News/PrepLodhiGarden26april2018.pdf",
+				"important":"no"
+			},
+
+			{
+				"message": "SMUN 2018",
+				"date": "01/05/2018",
+				"type": "link",
+				"href": "http://www.sanskritischool.edu.in/News/SMUN%20Inter%202018.pdf",
+				"important":"no"
 			}
+
+
+
 		]
 	},
 
 	"sports": {
 		"items": [
-
+			{
+				"date":"",
+				"message": "No announcements",
+				"important":"no"
+			}
 		]
 	}
 }
