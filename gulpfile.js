@@ -62,6 +62,6 @@ gulp.task('deploy', function() {
 	})
 })
 
-gulp.task('default', ['webserver', 'html', 'css', 'js', 'js-index', 'js-news'], function () {
+gulp.task('default', ['html', 'css', 'js', 'js-index', 'js-news'], function () {
 	gulp.watch(['src/pug/**/*.pug', 'src/styl/**/*.styl', 'src/js/*.js'], ['html', 'css', 'js', 'js-index', 'js-news']);
 })
