@@ -5,64 +5,64 @@ section.top
 	width 100%
 	border-bottom 3px solid sanskriti-orange
 	padding 60px 0
-	
+
 	div.carousel
 		width 50%
 		height 100%
-		
+
 		div.carousel-box
 			height 100%
 			width 80%
 			border 3px solid #323248
 			visibility hidden
-			
+
 			img
 				width 100%
 				height auto
 				display block
 				margin 0 auto
-	
+
 	div.welcome
 		width 50%
 		height 100%
 		justify-content flex-start
-		
+
 		div.container
 			width 80%
 			height 80%
-			
+
 			h1
 				font-family "Alegreya Sans"
 				font-size 400%
 				color sanskriti-orange
 				font-weight 100
-			
+
 			p
 				font-family "Alegreya Sans"
 				font-size 21px
 				line-height 1.3
 				font-weight 100
 				padding 2% 0
-				
+
 			a
 				color sanskriti-orange
 				transition 0.1s all ease
-				
+
 				&:hover
 					padding 3px 0
 					border-bottom 1px solid
-	
+
 section.middle
 	width 100%
 	background #323248
 	justify-content space-around
 	border-bottom 3px solid sanskriti-orange
-	
+
 	div.updates
 		width 25%
 		max-width 350px
 		height 60vh
-		
+
 		div.updates-box
 			width 100%
 			height 80%
@@ -70,19 +70,19 @@ section.middle
 			align-items center
 			border 3px solid #aaa
 			box-shadow 0 0 50px #21212f
-			
+
 			div.updates-top
 				width 100%
 				height 15%
-							
+
 				a
-					font-family "Libre Baskerville"
+					font-family "Nunito"
 					font-size 19px
 					font-weight bold
 					padding 0 0 3% 0
 					border-bottom 2px solid
 					text-align center
-				
+
 			div.updates-list
 				height 70%
 				width 100%
@@ -100,15 +100,22 @@ section.middle
 					list-style-position inside
 					list-style-type square
 					padding 0 0 25px 0
+					line-height 1.6
 
 					span
 						font-weight bold
-					
+
 					a
 						color inherit
-						text-decoration underline
-						text-underline-position under
-					
+						padding-bottom 2px
+						border-bottom 1px solid
+						text-decoration none
+						word-break break-all
+						word-break break-word
+						hyphens auto
+						-webkit-hyphens auto
+						-moz-hyphens auto
+
 					&.important
 						color #ff7878
 						font-weight bold
@@ -116,54 +123,61 @@ section.middle
 					&:nth-child(3)
 						border none
 
+				&::-webkit-scrollbar
+					width 8px
+					background #696969
+
+				&::-webkit-scrollbar-thumb
+					background #c1c1c1fc
+
 			div.updates-view-more
 				width 100%
 				height 15%
-				
+
 				a
 					font-size 17px
 					font-weight bold
 					transition 0.1s padding ease
-					
+
 					&:hover
 						padding 0 0 5px 0
 						border-bottom 2px solid
-					
-					
+
+
 			div.updates-calendar
 				height 15%
 				width 100%
 				border-top 3px solid #aaa
-				
+
 				a
 					font-size 20px
 					color sanskriti-orange
 					font-weight bold
-			
+
 		&.news
-			
+
 			div.updates-box
-				
+
 				div.updates-top, div.updates-view-more
-					
+
 					> a
 						color #ff9d53
 
 		&.achievements
-			
+
 			div.updates-box
-				
+
 				div.updates-top, div.updates-view-more
-					
+
 					> a
 						color #3bb5b9
 
 		&.sports
-			
+
 			div.updates-box
-				
+
 				div.updates-top, div.updates-view-more
-					
+
 					> a
 						color #55b355
 
@@ -176,18 +190,18 @@ section.bottom
 	div.image
 		width 35%
 		height 100%
-		
+
 		img
 			width 60%
 			height auto
 			border 2px solid sanskriti-blue
-	
+
 	div.message
 		width 65%
 		height 100%
 		padding 30px 0
 		justify-content flex-start
-		
+
 		div.container
 			height 80%
 			width 80%
@@ -205,22 +219,22 @@ section.bottom
 				line-height 1.3
 				font-weight 100
 				padding 2% 0
-				
+
 				&.quote
 					color sanskriti-blue
 
 					&:nth-child(2)
 						font-style italic
 						padding-bottom 0
-					
+
 					&:nth-child(3)
 						text-align right
 						padding-top 0
-				
+
 			a
 				color sanskriti-orange
 				transition 0.1s all ease
-				
+
 				&:hover
 					padding 3px 0
 					border-bottom 1px solid
