@@ -1,0 +1,76 @@
+doctype html
+
+html(lang='en')
+
+	head
+
+		title Class XI Admission Schedule &bull; Sanskriti School
+
+		include ../../includes/head.pug
+
+	body
+
+		div.container
+
+			section.navigation.flex
+
+				include ../../includes/navigation.pug
+
+			section.main
+
+				.container
+
+					.title
+
+						h1 Admission Schedule For Class XI 2018-2019
+
+					.text
+
+						table.border
+
+							tbody
+
+								tr
+
+									th(width='06%') Sno
+									th(width='60%')
+										center Item
+									th(width='15%')
+										center Status
+									th(width='19%') Date
+
+								tr
+
+									td 1.
+									td Admission Information for Class XI 2018-2019
+									td
+										a(href='http://sanskritischool.edu.in/News/Documents_GuidelinesXI.pdf', target='_blank') Download
+									td  
+
+								tr
+
+									td 2.
+									td Commencement of Admission, availability of application forms
+									td(rowspan='2')
+										a.other-link(href='http://sanskritischool.edu.in/classxi1819.html#', target='_blank') CLOSED
+									td(rowspan='2') 03/04/2018
+
+								tr
+
+									td 3.
+									td Last date for submission of online application forms
+
+								tr
+
+									td 4.
+									td
+										strong
+											| list of candidates shortlisted for the Entrance Exam on 09/04/2018 from 8:00am to 11:30am
+									td
+										strong
+											a(href='http://sanskritischool.edu.in/News/XI%20List%20of%20Candidates%20shortlisted%20for%20entrance%20test%200n%209%20April%202018.pdf', target='_blank') View List
+									td 05/04/2018
+
+			section.footer
+
+				include ../../includes/footer.pug

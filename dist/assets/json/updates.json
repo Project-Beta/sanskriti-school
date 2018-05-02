@@ -3,66 +3,9 @@
 		"items": [
 
 			{
-				"message": "Literary Days- Prep",
-				"date": "21/04/2018",
-				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/Literary%20Days-%20Prep.pdf",
-				"important":"no"
-			},
-
-			
-			{
-				"message": "Junior School, Literary Days: 19th & 20th April",
-				"date": "22/04/2018",
-				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/JUNIOR%20SCHOOL%20LITERARY%20DAYS.pdf",
-				"important":"no"
-			},
-
-			{
-				"message": "Sanskar; PTA Magazine : April 2018",
-				"date": "24/04/2018",
-				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/April%202018%20Sanskaar.pdf",
-				"important":"no"
-			},
-
-			{
-				"message": "Please login for an important Circular for Parents",
-				"date": "24/04/2018",
-				"type": "text",
-				"important":"yes"
-			},
-
-			{
-				"message": "Nursery: Parents Day Out Invite",
-				"date": "25/04/2018",
-				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/parents%20day%20out%20invite.pdf",
-				"important":"no"
-			},
-
-			{
-				"message": "Teri Trip to Mukteshwar",
-				"date": "25/04/2018",
-				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/trip_Teri_April2018.html",
-				"important":"no"
-			},
-
-			{
-				"message": "Class VI - Transition Module",
-				"date": "26/04/2018",
-				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/Transition%20Module%20.pdf",
-				"important":"no"
-			},
-
-			{
-				"message": "Graded Hindi UT 1 for classes VI to VIII will be held on Wednesday, August 08-2018, in Annexe Library at 7.30 am.",
+				"message": "Parents of grade 10 students have an interaction with the Principal on 5th May 2018 from 8:30 am to 9:30 am in the AV room.",
 				"date": "02/05/2018",
 				"type": "text",
-				"href": "",
 				"important":"no"
 			},
 
@@ -74,9 +17,64 @@
 			},
 
 			{
-				"message": "Parents of grade 10 students have an interaction with the Principal on 5th May 2018 from 8:30 am to 9:30 am in the AV room.",
+				"message": "Graded Hindi UT 1 for classes VI to VIII will be held on Wednesday, August 08-2018, in Annexe Library at 7.30 am.",
 				"date": "02/05/2018",
 				"type": "text",
+				"important": "no"
+			},
+
+			{
+				"message": "Class VI - Transition Module",
+				"date": "26/04/2018",
+				"type": "link",
+				"href": "/news/Transition%20Module%20.pdf",
+				"important": "no"
+			},
+
+			{
+				"message": "Teri Trip to Mukteshwar",
+				"date": "25/04/2018",
+				"type": "link",
+				"href": "/trip_Teri_April2018.html",
+				"important": "no"
+			},
+
+			{
+				"message": "Nursery: Parents Day Out Invite",
+				"date": "25/04/2018",
+				"type": "link",
+				"href": "/news/parents%20day%20out%20invite.pdf",
+				"important": "no"
+			},
+
+			{
+				"message": "Please login for an important Circular for Parents",
+				"date": "24/04/2018",
+				"type": "text",
+				"important": "yes"
+			},
+
+			{
+				"message": "Sanskar; PTA Magazine : April 2018",
+				"date": "24/04/2018",
+				"type": "link",
+				"href": "/news/April%202018%20Sanskaar.pdf",
+				"important": "no"
+			},
+
+			{
+				"message": "Junior School, Literary Days: 19th & 20th April",
+				"date": "22/04/2018",
+				"type": "link",
+				"href": "/news/JUNIOR%20SCHOOL%20LITERARY%20DAYS.pdf",
+				"important": "no"
+			},
+
+			{
+				"message": "Literary Days- Prep",
+				"date": "21/04/2018",
+				"type": "link",
+				"href": "/news/Literary%20Days-%20Prep.pdf",
 				"important":"no"
 			}
 
@@ -86,62 +84,60 @@
 	"achievements": {
 		"items": [
 			{
-				"message": "An Exhibition for Children with Autism",
-				"date": "21/04/2018",
+				"message": "Sanskriti Model United Nations 2018",
+				"date": "01/05/2018",
 				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/An%20Exhibition%20for%20Children%20with%20Autism.pdf",
-				"important":"no"
-			},
-
-			{
-				"message": "Visit to Nehru Planetarium, New Delhi",
-				"date": "22/04/2018",
-				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/Report%20on%20Visit%20to%20Nehru%20Planetarium%20New%20Delhi.pdf",
-				"important":"no"
-			},
-			
-			{
-				"message": "Informative session on IPL as a business model",
-				"date": "25/04/2018",
-				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/ipl%20presentation.pdf",
-				"important":"no"
-			},
-
-			{
-				"message": "Learning center: Visit to Kidzania",
-				"date": "25/04/2018",
-				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/Learning%20center%20visit%20to%20Kidzania.pdf",
-				"important":"no"
-			},
-
-			{
-				"message": "Prep: Parents Day Out",
-				"date": "25/04/2018",
-				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/Prep%20Parents%20Day%20Out%2024%2025%20April%202018.pdf",
-				"important":"no"
+				"href": "/news/SMUN%20Inter%202018.pdf",
+				"important": "no"
 			},
 
 			{
 				"message": "Prep: Visit to Lodhi Garden",
 				"date": "26/04/2018",
 				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/PrepLodhiGarden26april2018.pdf",
-				"important":"no"
+				"href": "/news/PrepLodhiGarden26april2018.pdf",
+				"important": "no"
 			},
 
 			{
-				"message": "SMUN 2018",
-				"date": "01/05/2018",
+				"message": "Prep: Parents Day Out",
+				"date": "25/04/2018",
 				"type": "link",
-				"href": "http://www.sanskritischool.edu.in/News/SMUN%20Inter%202018.pdf",
+				"href": "/news/Prep%20Parents%20Day%20Out%2024%2025%20April%202018.pdf",
+				"important": "no"
+			},
+
+			{
+				"message": "Learning center: Visit to Kidzania",
+				"date": "25/04/2018",
+				"type": "link",
+				"href": "/news/Learning%20center%20visit%20to%20Kidzania.pdf",
+				"important": "no"
+			},
+
+			{
+				"message": "Informative session on IPL as a business model",
+				"date": "25/04/2018",
+				"type": "link",
+				"href": "/news/ipl%20presentation.pdf",
+				"important": "no"
+			},
+
+			{
+				"message": "Visit to Nehru Planetarium, New Delhi",
+				"date": "22/04/2018",
+				"type": "link",
+				"href": "/news/Report%20on%20Visit%20to%20Nehru%20Planetarium%20New%20Delhi.pdf",
+				"important": "no"
+			},
+
+			{
+				"message": "An Exhibition for Children with Autism",
+				"date": "21/04/2018",
+				"type": "link",
+				"href": "/news/An%20Exhibition%20for%20Children%20with%20Autism.pdf",
 				"important":"no"
 			}
-
-
 
 		]
 	},
@@ -150,6 +146,7 @@
 		"items": [
 			{
 				"date":"",
+				"type": "text",
 				"message": "No announcements",
 				"important":"no"
 			}

@@ -93,24 +93,24 @@
 	],
 	"Admissions": [
 		{
-			"name": "Fee Structure 2016-17",
-			"href": "/admissions/fee-structure-2016-17"
-		},
-		{
-			"name": "Section Wise Enrolment 2016-17",
-			"href": "/admissions/section-wise-enrolment-2016-17"
-		},
-		{
 			"name": "Nursery Enrolment 2018-19",
 			"href": "/admissions/nursery-enrolment-2018-19"
 		},
 		{
-			"name": "Class IX Enrolment 2017-18",
-			"href": "/admissions/class-ix-enrolment-2017-18"
+			"name": "Class IX Admissions 2018-19",
+			"href": "/admissions/class-ix-2018-19"
 		},
 		{
-			"name": "Class XI Enrolment 2017-18",
-			"href": "/admissions/class-xi-enrolment-2017-18"
+			"name": "Class XI Admissions 2018-19",
+			"href": "/admissions/class-xi-2018-19"
+		},
+		{
+			"name": "Fee Structure 2017-18",
+			"href": "/admissions/fee-structure-2017-18"
+		},
+		{
+			"name": "Section Wise Enrolment 2017-18",
+			"href": "/admissions/section-wise-enrolment-2017-18"
 		}
 	],
 	"Infrastructure": [
