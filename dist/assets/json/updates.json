@@ -3,6 +3,52 @@
 		"items": [
 
 			{
+				"message": "Junior School: in-house auditions",
+				"date": "09/07/2018",
+				"type": "link",
+				"href": "./News/Sanskriti School in-house auditions.pdf"
+			},
+
+			{
+				"message": "<b>WWF quiz 2018:</b> WWF Quiz for classes 3, 4 and 5 will be held in school in the end of July 2018. Interested participants to deposit Rs.100 with their respective class teachers.",
+				"date": "06/07/2018",
+				"type": "text"
+			},
+
+			{
+				"message": "Notice regarding School Magazine",
+				"date": "03/07/2018",
+				"type": "link",
+				"href": "/news/Samvit.pdf"
+			},
+
+			{
+				"message": "Important Circular for I-Card",
+				"date": "04/07/2018",
+				"type": "link",
+				"href": "./News/circular for I Card 4 July 2018.pdf"
+			},
+
+			{
+				"message": "<b>Students of Class XII (batch of 2017 - 2018) </b><br>Students of class XII (batch of 2017- 2018) kindly collect <b>PASS CERTIFICATE</b> from School. <br>You can pick them up from Senior School office. Timing for collection of certificate is from <b>10. 00 am to 11.00 am. </b> We will NOT be able to help you before or after <b>10.00 am to 11.00 am. </b><br> Students are expected to come to their alma mater <b>properly dressed </b>during school hours.",
+				"date": "04/07/2018",
+				"type": "text"
+			},
+
+			{
+				"message": "class 7 and 8 Parents, please loging for details of Trips Orientation",
+				"date": "02/07/2018",
+				"type": "text"
+			},
+
+			{
+				"message": "School Canteen",
+				"date": "27/06/2018",
+				"type": "link",
+				"href": "/news/cafeteria.pdf"
+			},
+
+			{
 				"message": "Parents of grade 10 students have an interaction with the Principal on 5th May 2018 from 8:30 am to 9:30 am in the AV room.",
 				"date": "02/05/2018",
 				"type": "text",
@@ -83,6 +129,28 @@
 
 	"achievements": {
 		"items": [
+
+			{
+				"message": "Nursery's Science Days",
+				"date": "19/07/2018",
+				"type": "link",
+				"href": "/news/Nursery Science Days 2018.pdf"
+			},
+
+			{
+				"message": "Junior School: Science and Environment Day",
+				"date": "17/07/2018",
+				"type": "link",
+				"href": "/news/Science and Environment Day Jr School 18 19 July 2018.pdf"
+			},
+
+			{
+				"message": "Workshop on Road Safety norms",
+				"date": "11/07/2018",
+				"type": "link",
+				"href": "/news/Workshop on Road Safety norms.pdf"
+			},
+
 			{
 				"message": "Sanskriti Model United Nations 2018",
 				"date": "01/05/2018",
@@ -144,12 +212,20 @@
 
 	"sports": {
 		"items": [
+
 			{
-				"date":"",
-				"type": "text",
-				"message": "No announcements",
-				"important":"no"
+				"message": "Inter House Swimming Trials will be held on 13th Friday July 2018 at School for students of Middle and Senior Classes during School hours.<br>Inter House Trials for Badminton, TT and Chess will be on 21st Saturday July 2018 for students of Middle and Senior Classes from 8 to 12PM. <br>All students to report to gymnasium in house T-shirts at 8 AM sharp.",
+				"date": "10/07/2018",
+				"type": "text"
+			},
+
+			{
+				"message": "Middle School: Chess trial details",
+				"date": "03/07/2018",
+				"type": "link",
+				"href": "./News/SCHOOL TEAM SELECTION TRIALS FOR CHESS.pdf"
 			}
+
 		]
 	}
 }
