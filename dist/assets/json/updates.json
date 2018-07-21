@@ -19,7 +19,7 @@
 				"message": "Notice regarding School Magazine",
 				"date": "03/07/2018",
 				"type": "link",
-				"href": "/news/Samvit.pdf"
+				"href": "/News/Samvit.pdf"
 			},
 
 			{
@@ -45,7 +45,7 @@
 				"message": "School Canteen",
 				"date": "27/06/2018",
 				"type": "link",
-				"href": "/news/cafeteria.pdf"
+				"href": "/News/cafeteria.pdf"
 			},
 
 			{
@@ -73,7 +73,7 @@
 				"message": "Class VI - Transition Module",
 				"date": "26/04/2018",
 				"type": "link",
-				"href": "/news/Transition%20Module%20.pdf",
+				"href": "/News/Transition%20Module%20.pdf",
 				"important": "no"
 			},
 
@@ -89,7 +89,7 @@
 				"message": "Nursery: Parents Day Out Invite",
 				"date": "25/04/2018",
 				"type": "link",
-				"href": "/news/parents%20day%20out%20invite.pdf",
+				"href": "/News/parents%20day%20out%20invite.pdf",
 				"important": "no"
 			},
 
@@ -104,7 +104,7 @@
 				"message": "Sanskar; PTA Magazine : April 2018",
 				"date": "24/04/2018",
 				"type": "link",
-				"href": "/news/April%202018%20Sanskaar.pdf",
+				"href": "/News/April%202018%20Sanskaar.pdf",
 				"important": "no"
 			},
 
@@ -112,7 +112,7 @@
 				"message": "Junior School, Literary Days: 19th & 20th April",
 				"date": "22/04/2018",
 				"type": "link",
-				"href": "/news/JUNIOR%20SCHOOL%20LITERARY%20DAYS.pdf",
+				"href": "/News/JUNIOR%20SCHOOL%20LITERARY%20DAYS.pdf",
 				"important": "no"
 			},
 
@@ -120,7 +120,7 @@
 				"message": "Literary Days- Prep",
 				"date": "21/04/2018",
 				"type": "link",
-				"href": "/news/Literary%20Days-%20Prep.pdf",
+				"href": "/News/Literary%20Days-%20Prep.pdf",
 				"important":"no"
 			}
 
@@ -134,28 +134,28 @@
 				"message": "Nursery's Science Days",
 				"date": "19/07/2018",
 				"type": "link",
-				"href": "/news/Nursery Science Days 2018.pdf"
+				"href": "/News/Nursery Science Days 2018.pdf"
 			},
 
 			{
 				"message": "Junior School: Science and Environment Day",
 				"date": "17/07/2018",
 				"type": "link",
-				"href": "/news/Science and Environment Day Jr School 18 19 July 2018.pdf"
+				"href": "/News/Science and Environment Day Jr School 18 19 July 2018.pdf"
 			},
 
 			{
 				"message": "Workshop on Road Safety norms",
 				"date": "11/07/2018",
 				"type": "link",
-				"href": "/news/Workshop on Road Safety norms.pdf"
+				"href": "/News/Workshop on Road Safety norms.pdf"
 			},
 
 			{
 				"message": "Sanskriti Model United Nations 2018",
 				"date": "01/05/2018",
 				"type": "link",
-				"href": "/news/SMUN%20Inter%202018.pdf",
+				"href": "/News/SMUN%20Inter%202018.pdf",
 				"important": "no"
 			},
 
@@ -163,7 +163,7 @@
 				"message": "Prep: Visit to Lodhi Garden",
 				"date": "26/04/2018",
 				"type": "link",
-				"href": "/news/PrepLodhiGarden26april2018.pdf",
+				"href": "/News/PrepLodhiGarden26april2018.pdf",
 				"important": "no"
 			},
 
@@ -171,7 +171,7 @@
 				"message": "Prep: Parents Day Out",
 				"date": "25/04/2018",
 				"type": "link",
-				"href": "/news/Prep%20Parents%20Day%20Out%2024%2025%20April%202018.pdf",
+				"href": "/News/Prep%20Parents%20Day%20Out%2024%2025%20April%202018.pdf",
 				"important": "no"
 			},
 
@@ -179,7 +179,7 @@
 				"message": "Learning center: Visit to Kidzania",
 				"date": "25/04/2018",
 				"type": "link",
-				"href": "/news/Learning%20center%20visit%20to%20Kidzania.pdf",
+				"href": "/News/Learning%20center%20visit%20to%20Kidzania.pdf",
 				"important": "no"
 			},
 
@@ -187,7 +187,7 @@
 				"message": "Informative session on IPL as a business model",
 				"date": "25/04/2018",
 				"type": "link",
-				"href": "/news/ipl%20presentation.pdf",
+				"href": "/News/ipl%20presentation.pdf",
 				"important": "no"
 			},
 
@@ -195,7 +195,7 @@
 				"message": "Visit to Nehru Planetarium, New Delhi",
 				"date": "22/04/2018",
 				"type": "link",
-				"href": "/news/Report%20on%20Visit%20to%20Nehru%20Planetarium%20New%20Delhi.pdf",
+				"href": "/News/Report%20on%20Visit%20to%20Nehru%20Planetarium%20New%20Delhi.pdf",
 				"important": "no"
 			},
 
@@ -203,7 +203,7 @@
 				"message": "An Exhibition for Children with Autism",
 				"date": "21/04/2018",
 				"type": "link",
-				"href": "/news/An%20Exhibition%20for%20Children%20with%20Autism.pdf",
+				"href": "/News/An%20Exhibition%20for%20Children%20with%20Autism.pdf",
 				"important":"no"
 			}
 
@@ -223,7 +223,7 @@
 				"message": "Middle School: Chess trial details",
 				"date": "03/07/2018",
 				"type": "link",
-				"href": "./News/SCHOOL TEAM SELECTION TRIALS FOR CHESS.pdf"
+				"href": "/News/SCHOOL TEAM SELECTION TRIALS FOR CHESS.pdf"
 			}
 
 		]

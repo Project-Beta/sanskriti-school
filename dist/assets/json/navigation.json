@@ -62,7 +62,7 @@
 		},
 		{
 			"name": "RTI Information",
-			"href": "/News/RTI_2017.pdf"
+			"href": "/News/RTI.pdf"
 		}
 	],
 	"Curriculum": [
@@ -161,5 +161,5 @@
 	],
 	"Tenders": "/info/tenders",
 	"Login": "http://www.sscampuscare.in/",
-	"Safety Committee": "./News/Circular_School_Safety_Committee.pdf"
+	"Safety Committee": "/News/Circular_School_Safety_Committee.pdf"
 }
