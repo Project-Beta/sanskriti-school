@@ -37,10 +37,5 @@
     "gulp-surge": "0.1.0",
     "gulp-watch": "^4.3.11",
     "gulp-webserver": "^0.9.1"
-  },
-  "git": {
-    "scripts": {
-      "pre-push": "surge --project ./dist/ --domain sanskriti.surge.sh"
-    }
   }
 }
