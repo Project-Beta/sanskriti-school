@@ -26,7 +26,7 @@
     "babel-preset-env": "^1.6.1",
     "git-scripts": "^0.2.1",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-babel-minify": "^0.3.0",
     "gulp-cli": "^1.4.0",
     "gulp-concat": "^2.6.1",
